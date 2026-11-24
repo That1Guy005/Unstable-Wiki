@@ -1,0 +1,4 @@
+mkdocs>=1.6,<2
+mkdocs-material>=9.6
+mkdocs-glightbox>=0.4
+mkdocs-charts-plugin>=0.0.10

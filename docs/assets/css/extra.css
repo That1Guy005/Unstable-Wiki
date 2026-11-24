@@ -1,0 +1,40 @@
+/* Episode thumbnails: crop YouTube's letterbox bars to 16:9 */
+.md-typeset .uu-thumb { display: block; width: 100%; max-width: 40rem; aspect-ratio: 16 / 9; object-fit: cover;
+  border-radius: .4rem; box-shadow: var(--md-shadow-z1); margin-bottom: .6rem; }
+/* Wiki images on character / place pages */
+.md-typeset figure.uu-figure { margin: 0 0 1rem 0; }
+.md-typeset figure.uu-portrait { float: right; max-width: 11rem; margin: 0 0 1rem 1.2rem; }
+.md-typeset figure.uu-portrait img { max-height: 15rem; width: auto; }
+.md-typeset figure.uu-wide img { width: 100%; max-height: 22rem; object-fit: cover; border-radius: .4rem; }
+.md-typeset figure.uu-figure figcaption { font-size: .6rem; margin-top: .2rem; max-width: none; }
+@media screen and (max-width: 44.9375em) { .md-typeset figure.uu-portrait { float: none; margin: 0 auto 1rem; } }
+/* Card grids with images */
+.md-typeset .uu-cards img.uu-card-img { display: block; width: 100%; height: 9rem; object-fit: contain; margin: 0 auto .4rem; }
+.md-typeset .uu-cards img.uu-card-thumb { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: .3rem; margin-bottom: .4rem; }
+.md-typeset .uu-cards .uu-card-icon { font-size: 4rem; display: block; text-align: center; opacity: .4; }
+/* Sortable tables */
+.md-typeset .uu-sortable th { cursor: pointer; white-space: nowrap; }
+.md-typeset .uu-sortable th[role=columnheader]:not(.no-sort):after { content: " ⇅"; opacity: .35; font-size: .8em; }
+/* Link graph */
+#uu-graph { height: 72vh; min-height: 28rem; border: .05rem solid var(--md-default-fg-color--lightest); border-radius: .4rem; }
+.uu-graph-controls { display: flex; flex-wrap: wrap; gap: .4rem 1rem; align-items: center; margin-bottom: .6rem; font-size: .7rem; }
+.uu-graph-controls input[type=search] { padding: .3rem .5rem; border: .05rem solid var(--md-default-fg-color--lighter);
+  border-radius: .2rem; background: transparent; color: inherit; min-width: 14rem; }
+.uu-graph-filter { cursor: pointer; white-space: nowrap; }
+.uu-dot { display: inline-block; width: .6rem; height: .6rem; border-radius: 50%; vertical-align: middle; }
+.uu-graph-loading { padding: 1rem; opacity: .6; }
+/* Charts fill the content width */
+.md-typeset .vegalite { width: 100%; }
+/* Character gallery: profile, fanart, cosplay */
+.md-typeset .uu-gallery img { display: block; width: 100%; height: 15rem; object-fit: contain; margin: 0 auto .3rem; }
+.md-typeset .uu-gallery .uu-slot-icon { display: block; font-size: 6rem; height: 15rem; line-height: 15rem; text-align: center; opacity: .25; }
+.md-typeset .uu-gallery .uu-slot-icon svg { width: 6rem; height: 6rem; vertical-align: middle; }
+/* Episode thumbnails used as page pictures (crop YouTube's letterbox bars) */
+.md-typeset figure.uu-wide img.uu-fig-thumb { max-width: 40rem; max-height: none; aspect-ratio: 16 / 9; object-fit: cover; }
+.md-typeset .uu-gallery img.uu-card-thumb { height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: .3rem; }
+/* Vertical thumbnail of a YouTube Short */
+.md-typeset .uu-thumb-short { display: block; width: auto; max-width: 100%; height: 26rem; aspect-ratio: 9 / 16; object-fit: cover;
+  border-radius: .4rem; box-shadow: var(--md-shadow-z1); margin-bottom: .6rem; }
+/* Small Minecraft item sprites: keep the pixels sharp when scaled up */
+.md-typeset img.uu-pixel { image-rendering: pixelated; }
+.md-typeset figure.uu-portrait img.uu-pixel { width: 8rem; height: auto; }

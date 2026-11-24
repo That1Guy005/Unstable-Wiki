@@ -1,0 +1,474 @@
+site_name: Unstable Universe Notes
+site_description: Detailed notes on every Unstable Universe episode, character, place, faction and event.
+# Set this to your GitLab Pages URL, e.g. https://<namespace>.gitlab.io/<project>/
+# site_url: https://example.gitlab.io/unstable-universe/
+copyright: Fan notes. Text written from the Unstable Universe Wiki (CC BY-SA). Thumbnails and images © their creators.
+
+theme:
+  name: material
+  language: en
+  icon:
+    logo: material/cube-outline
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - content.tooltips
+    - toc.follow
+
+plugins:
+  - search
+  - tags
+  - glightbox:
+      skip_classes:
+        - off-glb
+  - charts
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+        - name: vegalite
+          class: vegalite
+          format: !!python/name:mkdocs_charts_plugin.fences.fence_vegalite
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/vega@5
+  - https://cdn.jsdelivr.net/npm/vega-lite@5
+  - https://cdn.jsdelivr.net/npm/vega-embed@6
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - https://unpkg.com/tablesort@5.3.0/dist/sorts/tablesort.number.min.js
+  - assets/js/tablesort.js
+
+extra_css:
+  - assets/css/extra.css
+
+nav:
+- Home: index.md
+- Episodes:
+  - episodes/index.md
+  - Season 1:
+    - episodes/season-1/index.md
+    - 1. How to Destroy the Unstable SMP: episodes/season-1/001-how-to-destroy-the-unstable-smp.md
+    - 2. This Button Destroys the World: episodes/season-1/002-this-button-destroys-the-world.md
+    - 3. Breaking Into Minecraft's Most Illegal Vault: episodes/season-1/003-breaking-into-minecrafts-most-illegal-vault.md
+    - 4. How I Stole 10,356,000 Duped Items: episodes/season-1/004-how-i-stole-10-356-000-duped-items.md
+    - 5. I Uncovered Minecraft's Greatest Secret: episodes/season-1/005-i-uncovered-minecrafts-greatest-secret.md
+    - 6. It's Impossible to Catch this Player: episodes/season-1/006-its-impossible-to-catch-this-player.md
+    - 7. I Broke into Minecraft's Most Secure Prison: episodes/season-1/007-i-broke-into-minecrafts-most-secure-prison.md
+    - 8. I Created Minecraft's Greatest Civilization: episodes/season-1/008-i-created-minecrafts-greatest-civilization.md
+    - 9. I Got Hunted by Minecraft's Deadliest Players: episodes/season-1/009-i-got-hunted-by-minecrafts-deadliest-players.md
+    - 10. Why I Destroyed the Unstable SMP: episodes/season-1/010-why-i-destroyed-the-unstable-smp.md
+    - 11. I Bankrupted Minecraft's Richest Civilization: episodes/season-1/011-i-bankrupted-minecrafts-richest-civilization.md
+    - 12. It's Impossible to Find this Player: episodes/season-1/012-its-impossible-to-find-this-player.md
+    - '13. Unstable SMP: The PrinceZam Empire War': episodes/season-1/013-unstable-smp-the-princezam-empire-war.md
+    - 14. How I Escaped Minecraft's Largest Prison: episodes/season-1/014-how-i-escaped-minecrafts-largest-prison.md
+    - '15. Escaping Proton: Minecraft''s Most Secure Prison': episodes/season-1/015-escaping-proton-minecrafts-most-secure-prison.md
+    - 16. I Built Minecraft's Safest Civilization: episodes/season-1/016-i-built-minecrafts-safest-civilization.md
+    - 17. How I Solved Minecraft's Largest Escape Room: episodes/season-1/017-how-i-solved-minecrafts-largest-escape-room.md
+    - 18. I Survived Minecraft's Most Corrupt City: episodes/season-1/018-i-survived-minecrafts-most-corrupt-city.md
+    - 19. I Got Hunted by the Minecraft Mafia: episodes/season-1/019-i-got-hunted-by-the-minecraft-mafia.md
+    - 20. I Discovered a Minecraft Sky Civilization: episodes/season-1/020-i-discovered-a-minecraft-sky-civilization.md
+    - 21. The Search for Minecraft's Far Lands: episodes/season-1/021-the-search-for-minecrafts-far-lands.md
+    - 22. I Infiltrated The Minecraft Mafia: episodes/season-1/022-i-infiltrated-the-minecraft-mafia.md
+    - 23. I Mastered Minecraft Combat: episodes/season-1/023-i-mastered-minecraft-combat.md
+    - '24. Unstable SMP: The First War': episodes/season-1/024-unstable-smp-the-first-war.md
+    - '25. Unstable SMP: Doomsday': episodes/season-1/025-unstable-smp-doomsday.md
+    - '26. Unstable SMP: The Mafia': episodes/season-1/026-unstable-smp-the-mafia.md
+    - 27. The End of the Minecraft Mafia: episodes/season-1/027-the-end-of-the-minecraft-mafia.md
+  - Season 2:
+    - episodes/season-2/index.md
+    - '28. Unstable SMP: After The Mafia': episodes/season-2/028-unstable-smp-after-the-mafia.md
+    - 29. I Got Hunted by the World's Best Minecraft Player: episodes/season-2/029-i-got-hunted-by-the-worlds-best-minecraft-player.md
+    - '30. Unstable SMP: The Eggchan Empire': episodes/season-2/030-unstable-smp-the-eggchan-empire.md
+    - 31. I Got Hunted by a Minecraft Redstone Genius: episodes/season-2/031-i-got-hunted-by-a-minecraft-redstone-genius.md
+    - 32. I Spent 100 Days Hidden in a Secret Minecraft Base...: episodes/season-2/032-i-spent-100-days-hidden-in-a-secret-minecraft-base.md
+    - 33. I Explored a Deserted Minecraft Civilization: episodes/season-2/033-i-explored-a-deserted-minecraft-civilization.md
+    - 34. I Got Hunted by Minecraft Bounty Hunters: episodes/season-2/034-i-got-hunted-by-minecraft-bounty-hunters.md
+    - 35. I Survived 100 Days Inside a Hidden Minecraft Base: episodes/season-2/035-i-survived-100-days-inside-a-hidden-minecraft-base.md
+    - 36. I Explored an Abandoned Minecraft Civilization: episodes/season-2/036-i-explored-an-abandoned-minecraft-civilization.md
+    - 37. 100 Days Hidden in a Minecraft Chunk Base: episodes/season-2/037-100-days-hidden-in-a-minecraft-chunk-base.md
+    - 38. How I SURVIVED the Unstable SMP: episodes/season-2/038-how-i-survived-the-unstable-smp.md
+    - 39. I Became Immortal on a Hardcore Minecraft SMP: episodes/season-2/039-i-became-immortal-on-a-hardcore-minecraft-smp.md
+    - 40. I Got Hunted by a Minecraft Hacker: episodes/season-2/040-i-got-hunted-by-a-minecraft-hacker.md
+    - 41. SOLO Player VS Toxic Minecraft Team: episodes/season-2/041-solo-player-vs-toxic-minecraft-team.md
+    - 42. How I HUNTED the Unstable SMP: episodes/season-2/042-how-i-hunted-the-unstable-smp.md
+    - 43. How I DESTROYED the Unstable SMP: episodes/season-2/043-how-i-destroyed-the-unstable-smp.md
+    - 44. I Spent 100 Days Trapped in a Minecraft Void Base...: episodes/season-2/044-i-spent-100-days-trapped-in-a-minecraft-void-base.md
+    - 45. Hunting a Minecraft Player Who Doesn't Exist: episodes/season-2/045-hunting-a-minecraft-player-who-doesnt-exist.md
+    - 46. SOLO Player VS Toxic Minecraft Clan: episodes/season-2/046-solo-player-vs-toxic-minecraft-clan.md
+    - 47. How I SAVED the Unstable SMP: episodes/season-2/047-how-i-saved-the-unstable-smp.md
+    - 48. SOLO Player VS Toxic Minecraft Civilization: episodes/season-2/048-solo-player-vs-toxic-minecraft-civilization.md
+    - 49. How I SURVIVED a Hardcore Minecraft Tournament: episodes/season-2/049-how-i-survived-a-hardcore-minecraft-tournament.md
+    - 50. Dominating Minecraft's Deadliest PVP Tournament: episodes/season-2/050-dominating-minecrafts-deadliest-pvp-tournament.md
+    - '51. Escaping Paragon: The Perfect Minecraft Prison': episodes/season-2/051-escaping-paragon-the-perfect-minecraft-prison.md
+    - 52. SOLO Player VS Minecraft Bounty Hunters: episodes/season-2/052-solo-player-vs-minecraft-bounty-hunters.md
+    - 53. I Explored Beyond the Minecraft Farlands: episodes/season-2/053-i-explored-beyond-the-minecraft-farlands.md
+    - 54. I Explored Beyond the Minecraft Fartherlands: episodes/season-2/054-i-explored-beyond-the-minecraft-fartherlands.md
+    - 55. I Got REVENGE on the Unstable SMP: episodes/season-2/055-i-got-revenge-on-the-unstable-smp.md
+    - 56. I Manipulated 1000 Players on the Unstable SMP: episodes/season-2/056-i-manipulated-1000-players-on-the-unstable-smp.md
+    - 57. I Almost DIED on a Hardcore Minecraft SMP: episodes/season-2/057-i-almost-died-on-a-hardcore-minecraft-smp.md
+    - 58. I Explored to the END of the Minecraft Farlands: episodes/season-2/058-i-explored-to-the-end-of-the-minecraft-farlands.md
+    - 59. Minecraft Combat Master VS Mace Pro: episodes/season-2/059-minecraft-combat-master-vs-mace-pro.md
+    - 60. I Explored Beyond the Minecraft Void: episodes/season-2/060-i-explored-beyond-the-minecraft-void.md
+    - '61. Unstable SMP: The Great Farm War': episodes/season-2/061-unstable-smp-the-great-farm-war.md
+    - 62. I Joined the World's Largest Minecraft Server: episodes/season-2/062-i-joined-the-worlds-largest-minecraft-server.md
+    - 63. I Got Betrayed by my 1000 Player Army...: episodes/season-2/063-i-got-betrayed-by-my-1000-player-army.md
+    - 64. Orbital Strike Cannon vs Unstable SMP: episodes/season-2/064-orbital-strike-cannon-vs-unstable-smp.md
+    - 65. Minecraft Pro VS Orbital Strike Cannon: episodes/season-2/065-minecraft-pro-vs-orbital-strike-cannon.md
+    - 66. I Became Powerful on a Hardcore Minecraft Server: episodes/season-2/066-i-became-powerful-on-a-hardcore-minecraft-server.md
+    - 67. The Search for Minecraft's Lost Kingdom: episodes/season-2/067-the-search-for-minecrafts-lost-kingdom.md
+    - 68. Hunting a Minecraft Player Who Went Missing: episodes/season-2/068-hunting-a-minecraft-player-who-went-missing.md
+    - 69. I Became a Bounty Hunter on the Unstable SMP: episodes/season-2/069-i-became-a-bounty-hunter-on-the-unstable-smp.md
+    - 70. I Faked My Death on a Hardcore Minecraft SMP: episodes/season-2/070-i-faked-my-death-on-a-hardcore-minecraft-smp.md
+    - 71. I Secretly Joined My Enemy's Minecraft Team: episodes/season-2/071-i-secretly-joined-my-enemys-minecraft-team.md
+    - 72. The Search for Minecraft's Sunken Empire: episodes/season-2/072-the-search-for-minecrafts-sunken-empire.md
+    - 73. How I "DIED" on a Hardcore Minecraft SMP: episodes/season-2/073-how-i-died-on-a-hardcore-minecraft-smp.md
+    - 74. Hunting a Player Who Faked His Death: episodes/season-2/074-hunting-a-player-who-faked-his-death.md
+    - 75. I Escaped Minecraft's Forgotten Dimension: episodes/season-2/075-i-escaped-minecrafts-forgotten-dimension.md
+    - 76. I Infiltrated Minecraft's Deadliest Faction: episodes/season-2/076-i-infiltrated-minecrafts-deadliest-faction.md
+    - 77. The Hunt for Minecraft's Deadliest Vault: episodes/season-2/077-the-hunt-for-minecrafts-deadliest-vault.md
+    - 78. 100% Invisibility Exploit VS Hardcore SMP: episodes/season-2/078-100-invisibility-exploit-vs-hardcore-smp.md
+    - 79. This Player Stole My Identity: episodes/season-2/079-this-player-stole-my-identity.md
+    - 80. 100 Players VS Minecraft Combat Master: episodes/season-2/080-100-players-vs-minecraft-combat-master.md
+    - 81. The Search for Wemmbu: episodes/season-2/081-the-search-for-wemmbu.md
+    - 82. I Got Hunted by Minecraft's Smartest Player: episodes/season-2/082-i-got-hunted-by-minecrafts-smartest-player.md
+    - 83. Exposing a Player Who Faked His Death: episodes/season-2/083-exposing-a-player-who-faked-his-death.md
+    - 84. I Trapped Secret Bases on the Unstable SMP...: episodes/season-2/084-i-trapped-secret-bases-on-the-unstable-smp.md
+    - 85. 2 VS 1000 Player Minecraft War: episodes/season-2/085-2-vs-1000-player-minecraft-war.md
+    - 86. 2 Minecraft Pros VS 1000 Players: episodes/season-2/086-2-minecraft-pros-vs-1000-players.md
+    - 87. Finding the Tomb of the Minecraft Mafia: episodes/season-2/087-finding-the-tomb-of-the-minecraft-mafia.md
+    - 88. I Got Hunted by Minecraft's Deadliest Stalkers...: episodes/season-2/088-i-got-hunted-by-minecrafts-deadliest-stalkers.md
+    - 89. I Got Banished from a Hardcore Minecraft Server: episodes/season-2/089-i-got-banished-from-a-hardcore-minecraft-server.md
+    - 90. I Became a Prisoner on the Unstable SMP: episodes/season-2/090-i-became-a-prisoner-on-the-unstable-smp.md
+    - '91. Unstable SMP: The First King': episodes/season-2/091-unstable-smp-the-first-king.md
+    - 92. I Got Hunted on the World's Largest Minecraft Server: episodes/season-2/092-i-got-hunted-on-the-worlds-largest-minecraft-server.md
+    - 93. Escaping Prison on the Unstable SMP: episodes/season-2/093-escaping-prison-on-the-unstable-smp.md
+    - 94. I Almost Got BANNED from the Unstable SMP...: episodes/season-2/094-i-almost-got-banned-from-the-unstable-smp.md
+    - 95. I Got Hunted By the Minecraft LAW: episodes/season-2/095-i-got-hunted-by-the-minecraft-law.md
+    - 96. I Secretly Got Trained By My Minecraft Killer: episodes/season-2/096-i-secretly-got-trained-by-my-minecraft-killer.md
+    - 97. I Joined a PIRATE CIVILIZATION in Minecraft: episodes/season-2/097-i-joined-a-pirate-civilization-in-minecraft.md
+    - 98. My Best Friend Died on the Unstable SMP: episodes/season-2/098-my-best-friend-died-on-the-unstable-smp.md
+    - 99. I Ran for King on the Unstable SMP: episodes/season-2/099-i-ran-for-king-on-the-unstable-smp.md
+    - 100. I Secretly Teamed With My Minecraft Killer: episodes/season-2/100-i-secretly-teamed-with-my-minecraft-killer.md
+    - '101. Unstable SMP: The Battle for The Great Sea': episodes/season-2/101-unstable-smp-the-battle-for-the-great-sea.md
+    - 102. I Got Trained By a Minecraft Spear Master: episodes/season-2/102-i-got-trained-by-a-minecraft-spear-master.md
+    - 103. I Survived the Unstable SMP Purge: episodes/season-2/103-i-survived-the-unstable-smp-purge.md
+    - 104. I Got Trained By the World's Best Minecraft Player: episodes/season-2/104-i-got-trained-by-the-worlds-best-minecraft-player.md
+    - 105. Breaking Hardcore Minecraft to Get Revenge: episodes/season-2/105-breaking-hardcore-minecraft-to-get-revenge.md
+    - 106. 2 Minecraft Pros VS 1000 Hunters: episodes/season-2/106-2-minecraft-pros-vs-1000-hunters.md
+    - 107. I Became a Minecraft Killer: episodes/season-2/107-i-became-a-minecraft-killer.md
+    - 108. I Explored the Minecraft Farlands: episodes/season-2/108-i-explored-the-minecraft-farlands.md
+    - 109. I Got Trained By a Minecraft TNT Master: episodes/season-2/109-i-got-trained-by-a-minecraft-tnt-master.md
+    - 110. Minecraft Trapper VS 1000 Players: episodes/season-2/110-minecraft-trapper-vs-1000-players.md
+    - 111. Minecraft Pro VS 1000 Players: episodes/season-2/111-minecraft-pro-vs-1000-players.md
+    - 112. I Became King of the Unstable SMP: episodes/season-2/112-i-became-king-of-the-unstable-smp.md
+    - 113. 4 Minecraft Pros VS 2500 Players: episodes/season-2/113-4-minecraft-pros-vs-2500-players.md
+    - '114. Unstable SMP: The LAW': episodes/season-2/114-unstable-smp-the-law.md
+    - 115. 2500 Players VS Minecraft Combat Master: episodes/season-2/115-2500-players-vs-minecraft-combat-master.md
+  - Season 2+:
+    - episodes/season-2-plus/index.md
+    - 116. I Joined a 100,000 Player Minecraft Server: episodes/season-2-plus/116-i-joined-a-100-000-player-minecraft-server.md
+    - 117. I Became a Minecraft Combat Master: episodes/season-2-plus/117-i-became-a-minecraft-combat-master.md
+    - 118. 100 Days as King of the Unstable SMP: episodes/season-2-plus/118-100-days-as-king-of-the-unstable-smp.md
+    - 119. Minecraft Trapper VS Elite Bounty Hunters: episodes/season-2-plus/119-minecraft-trapper-vs-elite-bounty-hunters.md
+    - 120. I Joined the Minecraft LAW: episodes/season-2-plus/120-i-joined-the-minecraft-law.md
+    - 121. Minecraft Pro VS 1000 Player Civilization: episodes/season-2-plus/121-minecraft-pro-vs-1000-player-civilization.md
+    - 122. I Exposed a Corrupt Minecraft Civilization: episodes/season-2-plus/122-i-exposed-a-corrupt-minecraft-civilization.md
+    - 123. Searching for 100 Players Who Went Missing: episodes/season-2-plus/123-searching-for-100-players-who-went-missing.md
+    - 124. I Explored the Minecraft Mist: episodes/season-2-plus/124-i-explored-the-minecraft-mist.md
+    - 125. Searching for a Civilization that Doesn't Exist: episodes/season-2-plus/125-searching-for-a-civilization-that-doesnt-exist.md
+    - 126. Searching For 1000 Players Who Went Missing: episodes/season-2-plus/126-searching-for-1000-players-who-went-missing.md
+    - 127. 1000 Players Simulate MIST War in Minecraft: episodes/season-2-plus/127-1000-players-simulate-mist-war-in-minecraft.md
+    - 128. I Got Hunted by the World's Deadliest Assassin: episodes/season-2-plus/128-i-got-hunted-by-the-worlds-deadliest-assassin.md
+    - 129. I Created the World's Largest Minecraft Army: episodes/season-2-plus/129-i-created-the-worlds-largest-minecraft-army.md
+    - 130. Finding 1000 Players Who Went Missing: episodes/season-2-plus/130-finding-1000-players-who-went-missing.md
+    - 131. Searching For My Friend Who Went Missing: episodes/season-2-plus/131-searching-for-my-friend-who-went-missing.md
+    - 132. I Joined a 10,000 Player Minecraft Army: episodes/season-2-plus/132-i-joined-a-10-000-player-minecraft-army.md
+    - '133. Unstable SMP: Civil War': episodes/season-2-plus/133-unstable-smp-civil-war.md
+    - 134. 1000 Players Simulate UNDERGROUND Civilization in Minecraft: episodes/season-2-plus/134-1000-players-simulate-underground-civilization-in-minecraft.md
+    - 135. 1000 Players Simulate PRISON in Hardcore Minecraft: episodes/season-2-plus/135-1000-players-simulate-prison-in-hardcore-minecraft.md
+    - 136. I Went to WAR on a Hardcore Minecraft SMP: episodes/season-2-plus/136-i-went-to-war-on-a-hardcore-minecraft-smp.md
+    - 137. 1000 VS 1000 Player Minecraft Civil War: episodes/season-2-plus/137-1000-vs-1000-player-minecraft-civil-war.md
+    - '138. Unstable SMP: Civil War FINALE': episodes/season-2-plus/138-unstable-smp-civil-war-finale.md
+    - 139. 1000 Players Simulate THE PURGE in Minecraft: episodes/season-2-plus/139-1000-players-simulate-the-purge-in-minecraft.md
+    - 140. I Became the Strongest on the Unstable SMP: episodes/season-2-plus/140-i-became-the-strongest-on-the-unstable-smp.md
+    - 141. 1000 Players Simulate HUNGER GAMES in Hardcore Minecraft: episodes/season-2-plus/141-1000-players-simulate-hunger-games-in-hardcore-minecraft.md
+    - 142. I Got Hunted By the World's Deadliest Minecraft Player: episodes/season-2-plus/142-i-got-hunted-by-the-worlds-deadliest-minecraft-player.md
+    - '143. Unstable SMP: Purgatory': episodes/season-2-plus/143-unstable-smp-purgatory.md
+    - 144. I Got Trained By a Minecraft Combat Master: episodes/season-2-plus/144-i-got-trained-by-a-minecraft-combat-master.md
+    - 145. Minecraft's Best Players Simulate PVP Tournament: episodes/season-2-plus/145-minecrafts-best-players-simulate-pvp-tournament.md
+    - 146. 1000 Players Build END Civilization in Hardcore Minecraft: episodes/season-2-plus/146-1000-players-build-end-civilization-in-hardcore-minecraft.md
+    - 147. I Built Minecraft's Most Advanced Civilization: episodes/season-2-plus/147-i-built-minecrafts-most-advanced-civilization.md
+    - 148. I Created Minecraft's Greatest Military: episodes/season-2-plus/148-i-created-minecrafts-greatest-military.md
+    - 149. I Exposed Minecraft's "Strongest" Player: episodes/season-2-plus/149-i-exposed-minecrafts-strongest-player.md
+    - 150. How I Destroyed an Entire Minecraft Civilization: episodes/season-2-plus/150-how-i-destroyed-an-entire-minecraft-civilization.md
+    - 151. 1000 Players Simulate Mining Prison in Minecraft: episodes/season-2-plus/151-1000-players-simulate-mining-prison-in-minecraft.md
+    - 152. Exploring Minecraft's Forgotten Dimension: episodes/season-2-plus/152-exploring-minecrafts-forgotten-dimension.md
+    - 153. Searching for a Vault that Doesn't Exist: episodes/season-2-plus/153-searching-for-a-vault-that-doesnt-exist.md
+    - 154. How I Saved the World's Largest Minecraft Server: episodes/season-2-plus/154-how-i-saved-the-worlds-largest-minecraft-server.md
+    - 155. I Created Minecraft's Greatest Empire: episodes/season-2-plus/155-i-created-minecrafts-greatest-empire.md
+    - 156. Escaping the Minecraft Underworld: episodes/season-2-plus/156-escaping-the-minecraft-underworld.md
+    - '157. Escaping Terminus: The Deadliest Minecraft Prison': episodes/season-2-plus/157-escaping-terminus-the-deadliest-minecraft-prison.md
+    - 158. 1000 Players Simulate End Prison in Minecraft: episodes/season-2-plus/158-1000-players-simulate-end-prison-in-minecraft.md
+    - 159. 10,000 Players Simulate COLD WAR in Minecraft: episodes/season-2-plus/159-10-000-players-simulate-cold-war-in-minecraft.md
+    - 160. 10,000 VS 10,000 Player Minecraft War: episodes/season-2-plus/160-10-000-vs-10-000-player-minecraft-war.md
+    - '161. 10,000 Player Minecraft War: Nether VS Overworld': episodes/season-2-plus/161-10-000-player-minecraft-war-nether-vs-overworld.md
+  - Side videos:
+    - episodes/side-videos/index.md
+    - Debunking Unstable Universe's Biggest Escape Room in Minecraft: episodes/side-videos/debunking-unstable-universes-biggest-escape-room-in-minecraf.md
+    - Addressing the GYATT allegations: episodes/side-videos/addressing-the-gyatt-allegations.md
+    - They should've never invited this youtuber...: episodes/side-videos/they-shouldve-never-invited-this-youtuber.md
+    - Unstable SMP/Universe Bloopers (Wifies POV): episodes/side-videos/unstable-smp-universe-bloopers-wifies-pov.md
+    - 'life of an invis mafia 💀 #unstablesmp': episodes/side-videos/life-of-an-invis-mafia-unstablesmp.md
+    - Episode 31 Twitch VOD Premiere: episodes/side-videos/episode-31-twitch-vod-premiere.md
+    - eggchan is a menace (blooper): episodes/side-videos/eggchan-is-a-menace-blooper.md
+    - ParrotX2 Let Me Watch His Video Early (Again...): episodes/side-videos/parrotx2-let-me-watch-his-video-early-again.md
+    - If Kenadian made unstable universe videos...: episodes/side-videos/if-kenadian-made-unstable-universe-videos.md
+    - behind the scenes and bloopers (the video never ends): episodes/side-videos/behind-the-scenes-and-bloopers-the-video-never-ends.md
+    - Unstable SMP Bloopers (Wifies/Director POV): episodes/side-videos/unstable-smp-bloopers-wifies-director-pov.md
+    - 'Unstable SMP: Full Spoke Mafia ARC': episodes/side-videos/unstable-smp-full-spoke-mafia-arc.md
+    - 'Unstable SMP: The PrinceZam Empire Arc SUPERCUT': episodes/side-videos/unstable-smp-the-princezam-empire-arc-supercut.md
+    - 'Unstable SMP: The PrinceZam Empire Arc Part 2 SUPERCUT': episodes/side-videos/unstable-smp-the-princezam-empire-arc-part-2-supercut.md
+    - The FlameFrags Minecraft Marathon [ROAD TO 1 MILLION]: episodes/side-videos/the-flamefrags-minecraft-marathon-road-to-1-million.md
+    - 'Unstable SMP: The Invis-Mafia Arc SUPERCUT': episodes/side-videos/unstable-smp-the-invis-mafia-arc-supercut.md
+- Characters:
+  - characters/index.md
+  - 4CVIT: characters/4cvit.md
+  - Antaggg: characters/antaggg.md
+  - Arachn1d: characters/arachn1d.md
+  - Ashswag: characters/ashswag.md
+  - Boosfer: characters/boosfer.md
+  - ClownPierce: characters/clownpierce.md
+  - Commander: characters/commander.md
+  - Deanthebean9: characters/deanthebean9.md
+  - Deputy Ace: characters/deputy-ace.md
+  - Derapchu: characters/derapchu.md
+  - Eggchan: characters/eggchan.md
+  - Falconu: characters/falconu.md
+  - Fantst: characters/fantst.md
+  - FerreMC: characters/ferremc.md
+  - FlameFrags: characters/flamefrags.md
+  - Fymada: characters/fymada.md
+  - Horace Altman: characters/horace-altman.md
+  - ItzRealMe: characters/itzrealme.md
+  - Jaden_MAN: characters/jaden-man.md
+  - JamatoP: characters/jamatop.md
+  - JumperWho: characters/jumperwho.md
+  - Kenadian: characters/kenadian.md
+  - Leow0ok: characters/leow0ok.md
+  - LettuceK: characters/lettucek.md
+  - Lomedy: characters/lomedy.md
+  - Loppezz: characters/loppezz.md
+  - LuigiToan: characters/luigitoan.md
+  - ManePear: characters/manepear.md
+  - Mapicc: characters/mapicc.md
+  - MinuteTech: characters/minutetech.md
+  - MrCube6: characters/mrcube6.md
+  - NotSkrilley: characters/notskrilley.md
+  - Nufuli: characters/nufuli.md
+  - Pangi: characters/pangi.md
+  - ParrotX2: characters/parrotx2.md
+  - PlanetLord: characters/planetlord.md
+  - PrinceZam: characters/princezam.md
+  - Reddoons: characters/reddoons.md
+  - ReinaDrop: characters/reinadrop.md
+  - Rejoicin: characters/rejoicin.md
+  - Rekrap2: characters/rekrap2.md
+  - Roshambogames: characters/roshambogames.md
+  - Saparata: characters/saparata.md
+  - SargeLAW: characters/sargelaw.md
+  - Sharpness: characters/sharpness.md
+  - ShoeBilly_: characters/shoebilly.md
+  - SpokeIsHere: characters/spokeishere.md
+  - Spongs: characters/spongs.md
+  - TheG0dofWar: characters/theg0dofwar.md
+  - TheobaldTheBird: characters/theobaldthebird.md
+  - TheRealSquiddo: characters/therealsquiddo.md
+  - TruOriginal: characters/truoriginal.md
+  - Wato1876: characters/wato1876.md
+  - Wemmbu: characters/wemmbu.md
+  - Wifies: characters/wifies.md
+  - WyLL: characters/wyll.md
+  - Yungyx: characters/yungyx.md
+- Places:
+  - places/index.md
+  - BAT Headquarters: places/bat-headquarters.md
+  - Capital City: places/capital-city.md
+  - Eggchan's Civilization: places/eggchans-civilization.md
+  - End Empire: places/end-empire.md
+  - Far Lands: places/far-lands.md
+  - Far Lands Civilization: places/far-lands-civilization.md
+  - FlameFrags' Base: places/flamefrags-base.md
+  - Ice Mountain Civilization: places/ice-mountain-civilization.md
+  - LAW City: places/law-city.md
+  - Lomedy's Farm: places/lomedys-farm.md
+  - Mafia City: places/mafia-city.md
+  - ManePear's Tree: places/manepears-tree.md
+  - Merchant City: places/merchant-city.md
+  - Mysterious Tomb: places/mysterious-tomb.md
+  - Newtopia: places/newtopia.md
+  - Northern Council: places/northern-council.md
+  - Paragon: places/paragon.md
+  - Pirate City: places/pirate-city.md
+  - Proton: places/proton.md
+  - Purgatory: places/purgatory.md
+  - Redstone Town: places/redstone-town.md
+  - Roshambo's Civilization: places/roshambos-civilization.md
+  - Skyblock Civilization: places/skyblock-civilization.md
+  - Skymore Civilization: places/skymore-civilization.md
+  - Spawn: places/spawn.md
+  - Terminus: places/terminus.md
+  - The Abandoned Civilization: places/the-abandoned-civilization.md
+  - The Amplified: places/the-amplified.md
+  - The End Civilization: places/the-end-civilization.md
+  - The Forge: places/the-forge.md
+  - The Great Sea: places/the-great-sea.md
+  - The Mist: places/the-mist.md
+  - The Underworld: places/the-underworld.md
+  - The Wheat Kingdom: places/the-wheat-kingdom.md
+  - The Wonders: places/the-wonders.md
+  - Wemmbu's Civilization: places/wemmbus-civilization.md
+  - Zam Empire: places/zam-empire.md
+- Factions:
+  - factions/index.md
+  - Bounty Assassin Team: factions/bounty-assassin-team.md
+  - Capitol City Police Force: factions/capitol-city-police-force.md
+  - Cindercrest: factions/cindercrest.md
+  - District 13: factions/district-13.md
+  - JumperWho's Spies: factions/jumperwhos-spies.md
+  - Kingdom of the Caves: factions/kingdom-of-the-caves.md
+  - LAW: factions/law.md
+  - Nether Kingdom: factions/nether-kingdom.md
+  - 'NULL': factions/null.md
+  - Pirates: factions/pirates.md
+  - Soul Keepers: factions/soul-keepers.md
+  - Spoke Galactic Empire: factions/spoke-galactic-empire.md
+  - The Avengers: factions/the-avengers.md
+  - The Invisible Mafia: factions/the-invisible-mafia.md
+  - The Warriors: factions/the-warriors.md
+  - Treasure Hunters: factions/treasure-hunters.md
+  - Vanguard: factions/vanguard.md
+  - Wraiths: factions/wraiths.md
+- Events:
+  - events/index.md
+  - Destruction of the Wonders: events/destruction-of-the-wonders.md
+  - Fall of the Invisible Mafia: events/fall-of-the-invisible-mafia.md
+  - Imprisonment in Proton: events/imprisonment-in-proton.md
+  - Jaden Trapped in the Abandoned Civilization: events/jaden-trapped-in-the-abandoned-civilization.md
+  - NULL's Conquest of the End: events/nulls-conquest-of-the-end.md
+  - Parrot Recruits Wemmbu: events/parrot-recruits-wemmbu.md
+  - Raid on Clown's Nether Vault: events/raid-on-clowns-nether-vault.md
+  - Spoke Haunts BAT's Void Base: events/spoke-haunts-bats-void-base.md
+  - Spoke's Scavenger Hunt and Chunk Ban: events/spokes-scavenger-hunt-and-chunk-ban.md
+  - The 2 VS 1000 War: events/the-2-vs-1000-war.md
+  - The Avengers' Hunt for Wemmbu: events/the-avengers-hunt-for-wemmbu.md
+  - The Civil War: events/the-civil-war.md
+  - The Dimensional War: events/the-dimensional-war.md
+  - The Election for King: events/the-election-for-king.md
+  - The LAW Prison: events/the-law-prison.md
+  - The Orbital Strike Cannon War: events/the-orbital-strike-cannon-war.md
+  - The Purge of the Caves: events/the-purge-of-the-caves.md
+  - The PvP Tournament: events/the-pvp-tournament.md
+  - The Sunken Empire Treasure Hunt: events/the-sunken-empire-treasure-hunt.md
+  - The War Against LAW: events/the-war-against-law.md
+  - Trapped in the Underworld: events/trapped-in-the-underworld.md
+  - Wemmbu and FlameFrags' Rematch: events/wemmbu-and-flamefrags-rematch.md
+  - Wemmbu's Fake Death: events/wemmbus-fake-death.md
+- Arcs:
+  - arcs/index.md
+  - BAT Arc: arcs/bat-arc.md
+  - Betrayal Arc: arcs/betrayal-arc.md
+  - Civil War Arc: arcs/civil-war-arc.md
+  - Dimensional War Arc: arcs/dimensional-war-arc.md
+  - Election Arc: arcs/election-arc.md
+  - Empire Arc: arcs/empire-arc.md
+  - End Civilization Arc: arcs/end-civilization-arc.md
+  - Exile Arc: arcs/exile-arc.md
+  - Exploit Arc: arcs/exploit-arc.md
+  - Fake Identity Arc: arcs/fake-identity-arc.md
+  - Farlands Arc: arcs/farlands-arc.md
+  - Invisible Mafia Arc: arcs/invisible-mafia-arc.md
+  - Kingdoms Arc: arcs/kingdoms-arc.md
+  - Kings Arc: arcs/kings-arc.md
+  - Missing Players Arc: arcs/missing-players-arc.md
+  - Pirate Arc: arcs/pirate-arc.md
+  - Power Arc: arcs/power-arc.md
+  - Purgatory Arc: arcs/purgatory-arc.md
+  - Rebirth Arc: arcs/rebirth-arc.md
+  - Secret Base Arc: arcs/secret-base-arc.md
+  - Skill Arc: arcs/skill-arc.md
+  - The Director Arc: arcs/the-director-arc.md
+  - The Interdimensional War: arcs/the-interdimensional-war.md
+  - Toxic War Arc: arcs/toxic-war-arc.md
+  - Training Arc: arcs/training-arc.md
+  - Treasure Arc: arcs/treasure-arc.md
+  - Warriors Arc: arcs/warriors-arc.md
+- Mechanics:
+  - mechanics/index.md
+  - Armour Trims: mechanics/armour-trims.md
+  - Arrow Cannon: mechanics/arrow-cannon.md
+  - Blimp: mechanics/blimp.md
+  - Bomber Plane: mechanics/bomber-plane.md
+  - Chunk Ban: mechanics/chunk-ban.md
+  - Death Ban: mechanics/death-ban.md
+  - Elytra: mechanics/elytra.md
+  - Ender Pearl Stasis Chamber: mechanics/ender-pearl-stasis-chamber.md
+  - Exploits: mechanics/exploits.md
+  - Fishing Rod Trigger: mechanics/fishing-rod-trigger.md
+  - Happy Ghast: mechanics/happy-ghast.md
+  - Invisibility: mechanics/invisibility.md
+  - Mace: mechanics/mace.md
+  - Orbital Automatic Pearl Launching Contraption: mechanics/orbital-automatic-pearl-launching-contraption.md
+  - Orbital Mob Cannon: mechanics/orbital-mob-cannon.md
+  - Orbital Strike Cannon: mechanics/orbital-strike-cannon.md
+  - Orbital Wither Cannon: mechanics/orbital-wither-cannon.md
+  - Pearl Cannon: mechanics/pearl-cannon.md
+  - Spear: mechanics/spear.md
+  - TNT Minecart: mechanics/tnt-minecart.md
+  - Totem of Undying: mechanics/totem-of-undying.md
+  - Trident: mechanics/trident.md
+  - Wind Charge: mechanics/wind-charge.md
+  - Windscourge: mechanics/windscourge.md
+  - Wither Bore: mechanics/wither-bore.md
+  - Wolf Summoning Machine: mechanics/wolf-summoning-machine.md
+- Explore:
+  - Timeline: explore/timeline.md
+  - Statistics: explore/statistics.md
+  - Link graph: explore/graph.md
+  - Tags: tags.md
+- About: about.md
