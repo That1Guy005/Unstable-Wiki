@@ -38,28 +38,30 @@
 /* Small Minecraft item sprites: keep the pixels sharp when scaled up */
 .md-typeset img.uu-pixel { image-rendering: pixelated; }
 .md-typeset figure.uu-portrait img.uu-pixel { width: 8rem; height: auto; }
-/* Enlarge button on diagrams and charts, and the zoom overlay */
-.md-typeset .uu-zoomable { position: relative; }
-.md-typeset .uu-zoom-btn { position: absolute; top: .3rem; right: .3rem; z-index: 2; padding: .15rem .5rem; font-size: .65rem;
-  border-radius: .2rem; border: .05rem solid var(--md-default-fg-color--lighter); cursor: pointer;
-  background: var(--md-default-bg-color); color: var(--md-default-fg-color--light); opacity: .55; transition: opacity .15s; }
-.md-typeset .uu-zoomable:hover .uu-zoom-btn, .md-typeset .uu-zoom-btn:focus-visible { opacity: 1; }
-@media (hover: none) { .md-typeset .uu-zoom-btn { opacity: .9; } }
-html.uu-zoom-open { overflow: hidden; }
-.uu-zoom-overlay { position: fixed; inset: 0; z-index: 1000; display: flex; flex-direction: column;
-  background: var(--md-default-bg-color); }
-.uu-zoom-overlay[hidden] { display: none; }
-.uu-zoom-bar { display: flex; align-items: center; gap: .4rem; padding: .4rem .6rem;
-  border-bottom: .05rem solid var(--md-default-fg-color--lightest); font-size: .7rem; }
-.uu-zoom-bar button { min-width: 2rem; padding: .2rem .55rem; border-radius: .2rem; cursor: pointer; font-size: .8rem;
-  border: .05rem solid var(--md-default-fg-color--lighter); background: transparent; color: var(--md-default-fg-color); }
-.uu-zoom-bar button:hover { border-color: var(--md-accent-fg-color); color: var(--md-accent-fg-color); }
-.uu-zoom-bar [data-z="close"] { margin-left: auto; font-size: 1rem; }
-.uu-zoom-hint { opacity: .6; margin-left: .4rem; }
-.uu-zoom-stage { position: relative; flex: 1; overflow: hidden; cursor: grab; touch-action: none; }
-.uu-zoom-stage.uu-dragging { cursor: grabbing; }
-.uu-zoom-inner { position: absolute; top: 0; left: 0; transform-origin: 0 0; }
-.uu-zoom-inner .mermaid, .uu-zoom-inner .vegalite { margin: 0 !important; }
+/* Diagrams and charts: click to open in an overlay with - / + zoom */
+.md-typeset .uu-zoomable { position: relative; cursor: zoom-in; }
+.md-typeset .uu-zoom-btn { position: absolute; top: .3rem; right: .3rem; z-index: 2; width: 1.6rem; height: 1.6rem; padding: .2rem;
+  border-radius: 50%; border: .05rem solid var(--md-default-fg-color--lighter); cursor: zoom-in;
+  background: var(--md-default-bg-color); color: var(--md-default-fg-color--light); opacity: .6; transition: opacity .15s; }
+.md-typeset .uu-zoom-btn svg { width: 100%; height: 100%; fill: currentColor; display: block; }
+.md-typeset .uu-zoomable:hover .uu-zoom-btn, .md-typeset .uu-zoom-btn:focus-visible { opacity: 1; color: var(--md-accent-fg-color); }
+html.uu-lb-open { overflow: hidden; }
+.uu-lb { position: fixed; inset: 0; z-index: 1000; display: flex; align-items: center; justify-content: center;
+  background: rgba(0, 0, 0, .72); padding: 2vh 2vw; }
+.uu-lb[hidden] { display: none; }
+.uu-lb-panel { display: flex; flex-direction: column; width: 100%; height: 100%; max-width: 96vw; max-height: 96vh;
+  background: var(--md-default-bg-color); border-radius: .5rem; box-shadow: 0 .5rem 2rem rgba(0, 0, 0, .5); overflow: hidden; }
+.uu-lb-bar { display: flex; align-items: center; gap: .5rem; padding: .5rem .7rem;
+  border-bottom: .05rem solid var(--md-default-fg-color--lightest); }
+.uu-lb-btn { min-width: 2.2rem; height: 2.2rem; padding: 0 .7rem; border-radius: .3rem; cursor: pointer; font-size: 1.1rem; line-height: 1;
+  border: .05rem solid var(--md-default-fg-color--lighter); background: var(--md-default-bg-color); color: var(--md-default-fg-color); }
+.uu-lb-btn:hover, .uu-lb-btn:focus-visible { border-color: var(--md-accent-fg-color); color: var(--md-accent-fg-color); }
+.uu-lb-text { font-size: .75rem; }
+.uu-lb-close { margin-left: auto; font-size: 1.4rem; }
+.uu-lb-pct { min-width: 3.2rem; text-align: center; font-size: .8rem; font-variant-numeric: tabular-nums; }
+.uu-lb-body { flex: 1; overflow: auto; display: flex; padding: 1rem; }
+.uu-lb-holder { margin: auto; }
+.uu-lb-holder .mermaid, .uu-lb-holder .vegalite { margin: 0 !important; }
 /* Link graph full screen */
 .uu-graph-full { margin-left: auto; padding: .25rem .6rem; border-radius: .2rem; cursor: pointer; font-size: .7rem;
   border: .05rem solid var(--md-default-fg-color--lighter); background: transparent; color: inherit; }
