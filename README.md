@@ -22,10 +22,17 @@ mkdocs build --strict
 
 The output goes to `site/`.
 
-## GitLab Pages
+## GitHub Pages
 
-`.gitlab-ci.yml` builds the site into `public/` on the default branch. Set `site_url` in `mkdocs.yml`
-to the Pages URL (for example `https://<namespace>.gitlab.io/<project>/`) once you know it.
+The site is published at https://that1guy005.github.io/Unstable-Wiki/.
+
+`.github/workflows/pages.yml` builds the site with `mkdocs build --strict` and deploys it on every push to
+`main` (you can also run it by hand from the **Actions** tab).
+
+One-time setup on GitHub: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+
+If you rename the repository or move it to another account, update `site_url`, `repo_url` and `repo_name`
+in `mkdocs.yml`.
 
 ## Notes
 

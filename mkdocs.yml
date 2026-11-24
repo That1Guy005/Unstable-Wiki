@@ -1,7 +1,10 @@
 site_name: Unstable Universe Notes
 site_description: Detailed notes on every Unstable Universe episode, character, place, faction and event.
-# Set this to your GitLab Pages URL, e.g. https://<namespace>.gitlab.io/<project>/
-# site_url: https://example.gitlab.io/unstable-universe/
+# GitHub Pages address of this site (used for canonical links, the sitemap and the 404 page)
+site_url: https://that1guy005.github.io/Unstable-Wiki/
+repo_url: https://github.com/That1Guy005/Unstable-Wiki
+repo_name: That1Guy005/Unstable-Wiki
+edit_uri: ""
 copyright: Fan notes. Text written from the Unstable Universe Wiki (CC BY-SA). Thumbnails and images © their creators.
 
 theme:
