@@ -39,13 +39,9 @@ tags:
 
     ---
 
-    :material-camera-plus-outline:{ .uu-slot-icon }
+    [![Cosplay of Lomedy by cinnacourz](https://64.media.tumblr.com/4ba4922e85184fa117e2a8c6403cfee5/60f7589e839de44d-91/s1280x1920/e8099d92d2c9457adebb10ad77d6191ab369b3e0.jpg){ .off-glb loading=lazy referrerpolicy=no-referrer }](https://www.tumblr.com/cinnacourz/820521928675753985/if-you-know-you-know "Open the original post")
 
-    <small>No cosplay photo yet. [How to add one](../about.md#cosplay-photos)</small>
-
-    <!-- COSPLAY Lomedy: replace the icon and note above with, for example:
-    ![Cosplay of Lomedy by NAME](../assets/cosplay/lomedy.jpg){ loading=lazy }
-    <small>Cosplay by [NAME](LINK), used with permission</small> -->
+    <small>Roblox cosplay (group shot) by [cinnacourz](https://www.tumblr.com/cinnacourz/820521928675753985/if-you-know-you-know) on Tumblr</small>
 
 </div>
 

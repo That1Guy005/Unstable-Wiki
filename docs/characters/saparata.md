@@ -39,13 +39,9 @@ tags:
 
     ---
 
-    :material-camera-plus-outline:{ .uu-slot-icon }
+    [![Cosplay of Saparata by zkaurrm](https://64.media.tumblr.com/9e5eafadea5761d448caed7b2e10e773/e0160a51da99ba43-b9/s1280x1920/bb6515df1742aa5277dd5deb6e1476c35609c175.jpg){ .off-glb loading=lazy referrerpolicy=no-referrer }](https://www.tumblr.com/zkaurrm/823031441499815936/filler-post-workin-on-something-ooo-just-you "Open the original post")
 
-    <small>No cosplay photo yet. [How to add one](../about.md#cosplay-photos)</small>
-
-    <!-- COSPLAY Saparata: replace the icon and note above with, for example:
-    ![Cosplay of Saparata by NAME](../assets/cosplay/saparata.jpg){ loading=lazy }
-    <small>Cosplay by [NAME](LINK), used with permission</small> -->
+    <small>Roblox cosplay by [zkaurrm](https://www.tumblr.com/zkaurrm/823031441499815936/filler-post-workin-on-something-ooo-just-you) on Tumblr</small>
 
 </div>
 

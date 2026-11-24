@@ -20,9 +20,10 @@ ParrotX2, Wemmbu, SpokeIsHere and FlameFrags. This is a fan reference and isn't 
 - **Fanart.** Each character's fanart is loaded from the artist's own Tumblr post (or, for Theobald, the wiki) and
   links back to it. The art belongs to the artists. If you publish this site, it's polite to ask them first, and to
   remove any piece an artist asks you to take down.
-- **Cosplay.** Cosplay photos are loaded from the cosplayer's own public Tumblr post and link back to it. Only photos
-  where the cosplayer's face is hidden or mostly covered (mask, box head, shot from behind) are used. They show real people, so ask the
-  cosplayers before you publish this site, and remove any photo someone asks you to take down.
+- **Cosplay.** Cosplay photos and game-avatar cosplays (Roblox, Sky and similar, labelled as such) are loaded from the
+  creator's own public Tumblr post and link back to it. Real photos are only used where the cosplayer's face is
+  hidden or mostly covered (mask, box head, shot from behind). Ask the cosplayers before you publish this site, and
+  remove any photo someone asks you to take down.
 - **Item pictures.** Mechanics without a wiki image show the item's picture from the
   [Minecraft Wiki](https://minecraft.wiki/) (game assets © Mojang). Events, arcs and a few other pages show the
   thumbnail of the episode where they start.
@@ -110,24 +111,34 @@ Every character has a fanart piece.
 
 ## Cosplay credits
 
-| Character | Cosplayer |
-|---|---|
-| [Ashswag](characters/ashswag.md) | [flkgjwk](https://www.tumblr.com/flkgjwk/769276991507709952/dropping-my-ashswag-cosplay-here-and-running) (Tumblr) |
-| [ClownPierce](characters/clownpierce.md) | [deathazhere](https://www.tumblr.com/deathazhere/757100979521011712/it-is-finally-done-my-clown-costume-this) (Tumblr) |
-| [Eggchan](characters/eggchan.md) | [trashjesterr](https://www.tumblr.com/trashjesterr/821434329911672832) (Tumblr) |
-| [Jaden_MAN](characters/jaden-man.md) | [butelkabezkorka](https://www.tumblr.com/butelkabezkorka/832629177158107136/lets-hope-i-wont-meet-spokes-cosplayer-at-the) (Tumblr) |
-| [JumperWho](characters/jumperwho.md) | [introvert-in-hell](https://www.tumblr.com/introvert-in-hell/754601208221712384/jumperwho-wig-i-made-for-reasons) (Tumblr) |
-| [Kenadian](characters/kenadian.md) | [cree-churr](https://www.tumblr.com/cree-churr/833656921198329856/guess-whos-moe) (Tumblr) |
-| [PlanetLord](characters/planetlord.md) | [unending-plague](https://www.tumblr.com/unending-plague/768712970492690432/theyre-almost-done-raaaghhhh) (Tumblr) |
-| [PrinceZam](characters/princezam.md) | [wemmblogger](https://www.tumblr.com/wemmblogger/761547706748567552/i-princezam-will-not-overheat-in-my-bedroom) (Tumblr) |
-| [SpokeIsHere](characters/spokeishere.md) | [0nyx0fficial](https://www.tumblr.com/0nyx0fficial/811924203600248832/spoke-cosplay) (Tumblr) |
-| [TheRealSquiddo](characters/therealsquiddo.md) | [sagebtw](https://www.tumblr.com/sagebtw/831495908958109696/how-do-we-feel-about-the-squiddo-cosplay) (Tumblr) |
-| [Wemmbu](characters/wemmbu.md) | [xtradiazx](https://www.tumblr.com/xtradiazx/829111784134819841/its-the-most-spookiest-time-of-the-year) (Tumblr) |
-| [Wifies](characters/wifies.md) | [akleni-does-stuff](https://www.tumblr.com/akleni-does-stuff/833280224413237248/click-for-better-quality-more-under-the) (Tumblr) |
+| Character | Type | Cosplayer |
+|---|---|---|
+| [Ashswag](characters/ashswag.md) | Cosplay | [flkgjwk](https://www.tumblr.com/flkgjwk/769276991507709952/dropping-my-ashswag-cosplay-here-and-running) (Tumblr) |
+| [ClownPierce](characters/clownpierce.md) | Cosplay | [deathazhere](https://www.tumblr.com/deathazhere/757100979521011712/it-is-finally-done-my-clown-costume-this) (Tumblr) |
+| [Eggchan](characters/eggchan.md) | Cosplay | [trashjesterr](https://www.tumblr.com/trashjesterr/821434329911672832) (Tumblr) |
+| [FlameFrags](characters/flamefrags.md) | Roblox cosplay (group shot) | [cinnacourz](https://www.tumblr.com/cinnacourz/820521928675753985/if-you-know-you-know) (Tumblr) |
+| [Jaden_MAN](characters/jaden-man.md) | Cosplay | [butelkabezkorka](https://www.tumblr.com/butelkabezkorka/832629177158107136/lets-hope-i-wont-meet-spokes-cosplayer-at-the) (Tumblr) |
+| [JamatoP](characters/jamatop.md) | Roblox cosplay (group shot) | [katsucksass](https://www.tumblr.com/katsucksass/830103603456933888/aw-game-unstable-beans) (Tumblr) |
+| [JumperWho](characters/jumperwho.md) | Cosplay | [introvert-in-hell](https://www.tumblr.com/introvert-in-hell/754601208221712384/jumperwho-wig-i-made-for-reasons) (Tumblr) |
+| [Kenadian](characters/kenadian.md) | Cosplay | [cree-churr](https://www.tumblr.com/cree-churr/833656921198329856/guess-whos-moe) (Tumblr) |
+| [LettuceK](characters/lettucek.md) | Warrior Cats: Ultimate Edition (Roblox) cosplay | [illusion-isg0ne](https://www.tumblr.com/illusion-isg0ne/833995330144092160/made-a-new-cosplay-in-wcue-what-do-you-think) (Tumblr) |
+| [Lomedy](characters/lomedy.md) | Roblox cosplay (group shot) | [cinnacourz](https://www.tumblr.com/cinnacourz/820521928675753985/if-you-know-you-know) (Tumblr) |
+| [ManePear](characters/manepear.md) | Roblox cosplay | [zkaurrm](https://www.tumblr.com/zkaurrm/823031441499815936/filler-post-workin-on-something-ooo-just-you) (Tumblr) |
+| [Mapicc](characters/mapicc.md) | Roblox cosplay (group shot) | [cinnacourz](https://www.tumblr.com/cinnacourz/820521928675753985/if-you-know-you-know) (Tumblr) |
+| [Pangi](characters/pangi.md) | Roblox (Adopt Me) cosplay (group shot) | [daily-pesky-bird](https://www.tumblr.com/daily-pesky-bird/821518008044437504/this-is-a-mix-of-what-i-have-done-on-adopt-me-and) (Tumblr) |
+| [ParrotX2](characters/parrotx2.md) | Sky: Children of the Light cosplay | [amarald-sky](https://www.tumblr.com/amarald-sky/817300386762342400/sky-photoshoot-with-a-parrotx2-and-derlord3) (Tumblr) |
+| [PlanetLord](characters/planetlord.md) | Cosplay | [unending-plague](https://www.tumblr.com/unending-plague/768712970492690432/theyre-almost-done-raaaghhhh) (Tumblr) |
+| [PrinceZam](characters/princezam.md) | Cosplay | [wemmblogger](https://www.tumblr.com/wemmblogger/761547706748567552/i-princezam-will-not-overheat-in-my-bedroom) (Tumblr) |
+| [Saparata](characters/saparata.md) | Roblox cosplay | [zkaurrm](https://www.tumblr.com/zkaurrm/823031441499815936/filler-post-workin-on-something-ooo-just-you) (Tumblr) |
+| [SpokeIsHere](characters/spokeishere.md) | Cosplay | [0nyx0fficial](https://www.tumblr.com/0nyx0fficial/811924203600248832/spoke-cosplay) (Tumblr) |
+| [TheobaldTheBird](characters/theobaldthebird.md) | Roblox cosplay (group shot) | [cinnacourz](https://www.tumblr.com/cinnacourz/820521928675753985/if-you-know-you-know) (Tumblr) |
+| [TheRealSquiddo](characters/therealsquiddo.md) | Cosplay | [sagebtw](https://www.tumblr.com/sagebtw/831495908958109696/how-do-we-feel-about-the-squiddo-cosplay) (Tumblr) |
+| [Wemmbu](characters/wemmbu.md) | Cosplay | [xtradiazx](https://www.tumblr.com/xtradiazx/829111784134819841/its-the-most-spookiest-time-of-the-year) (Tumblr) |
+| [Wifies](characters/wifies.md) | Cosplay | [akleni-does-stuff](https://www.tumblr.com/akleni-does-stuff/833280224413237248/click-for-better-quality-more-under-the) (Tumblr) |
 
 ## Cosplay photos
 
-12 characters have a cosplay photo. The others have an empty **Cosplay** slot in their gallery. To fill one:
+22 characters have a cosplay photo or game-avatar cosplay. The others have an empty **Cosplay** slot in their gallery. To fill one:
 
 1. Put the photo in `docs/assets/cosplay/` (create the folder), e.g. `docs/assets/cosplay/wemmbu.jpg`, or use a
    direct image link.

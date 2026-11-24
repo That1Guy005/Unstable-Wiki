@@ -39,13 +39,9 @@ tags:
 
     ---
 
-    :material-camera-plus-outline:{ .uu-slot-icon }
+    [![Cosplay of Pangi by daily-pesky-bird](https://64.media.tumblr.com/a1ef138c45b5a9e51b62f982beb3782c/7aa64c6ad130bfcf-f4/s1280x1920/260b07f3fa287d712e3016ab65b5f64b272be805.jpg){ .off-glb loading=lazy referrerpolicy=no-referrer }](https://www.tumblr.com/daily-pesky-bird/821518008044437504/this-is-a-mix-of-what-i-have-done-on-adopt-me-and "Open the original post")
 
-    <small>No cosplay photo yet. [How to add one](../about.md#cosplay-photos)</small>
-
-    <!-- COSPLAY Pangi: replace the icon and note above with, for example:
-    ![Cosplay of Pangi by NAME](../assets/cosplay/pangi.jpg){ loading=lazy }
-    <small>Cosplay by [NAME](LINK), used with permission</small> -->
+    <small>Roblox (Adopt Me) cosplay (group shot) by [daily-pesky-bird](https://www.tumblr.com/daily-pesky-bird/821518008044437504/this-is-a-mix-of-what-i-have-done-on-adopt-me-and) on Tumblr</small>
 
 </div>
 

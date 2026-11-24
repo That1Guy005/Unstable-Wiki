@@ -40,13 +40,9 @@ tags:
 
     ---
 
-    :material-camera-plus-outline:{ .uu-slot-icon }
+    [![Cosplay of ParrotX2 by amarald-sky](https://64.media.tumblr.com/315f606fe1f227ad08d0e13cdb268beb/6dec034c3ccfea8d-53/s1280x1920/4460c165427c4758bef44aedcd5ad11e0ed93ba7.jpg){ .off-glb loading=lazy referrerpolicy=no-referrer }](https://www.tumblr.com/amarald-sky/817300386762342400/sky-photoshoot-with-a-parrotx2-and-derlord3 "Open the original post")
 
-    <small>No cosplay photo yet. [How to add one](../about.md#cosplay-photos)</small>
-
-    <!-- COSPLAY ParrotX2: replace the icon and note above with, for example:
-    ![Cosplay of ParrotX2 by NAME](../assets/cosplay/parrotx2.jpg){ loading=lazy }
-    <small>Cosplay by [NAME](LINK), used with permission</small> -->
+    <small>Sky: Children of the Light cosplay by [amarald-sky](https://www.tumblr.com/amarald-sky/817300386762342400/sky-photoshoot-with-a-parrotx2-and-derlord3) on Tumblr</small>
 
 </div>
 

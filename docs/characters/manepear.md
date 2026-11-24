@@ -39,13 +39,9 @@ tags:
 
     ---
 
-    :material-camera-plus-outline:{ .uu-slot-icon }
+    [![Cosplay of ManePear by zkaurrm](https://64.media.tumblr.com/6c1160ea994e8f04a7c27471dce3fa4f/e0160a51da99ba43-f4/s1280x1920/46f3c86f577ba1a70a06d0e2ae4e374d53a00e5e.jpg){ .off-glb loading=lazy referrerpolicy=no-referrer }](https://www.tumblr.com/zkaurrm/823031441499815936/filler-post-workin-on-something-ooo-just-you "Open the original post")
 
-    <small>No cosplay photo yet. [How to add one](../about.md#cosplay-photos)</small>
-
-    <!-- COSPLAY ManePear: replace the icon and note above with, for example:
-    ![Cosplay of ManePear by NAME](../assets/cosplay/manepear.jpg){ loading=lazy }
-    <small>Cosplay by [NAME](LINK), used with permission</small> -->
+    <small>Roblox cosplay by [zkaurrm](https://www.tumblr.com/zkaurrm/823031441499815936/filler-post-workin-on-something-ooo-just-you) on Tumblr</small>
 
 </div>
 

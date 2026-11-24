@@ -39,13 +39,9 @@ tags:
 
     ---
 
-    :material-camera-plus-outline:{ .uu-slot-icon }
+    [![Cosplay of LettuceK by illusion-isg0ne](https://64.media.tumblr.com/05e9229e25e18d9b33f96aeffed99a41/450aaff538fa7329-10/s1280x1920/1523518e0959ffbb02e8e5c2ea1e8178e6ba9c80.jpg){ .off-glb loading=lazy referrerpolicy=no-referrer }](https://www.tumblr.com/illusion-isg0ne/833995330144092160/made-a-new-cosplay-in-wcue-what-do-you-think "Open the original post")
 
-    <small>No cosplay photo yet. [How to add one](../about.md#cosplay-photos)</small>
-
-    <!-- COSPLAY LettuceK: replace the icon and note above with, for example:
-    ![Cosplay of LettuceK by NAME](../assets/cosplay/lettucek.jpg){ loading=lazy }
-    <small>Cosplay by [NAME](LINK), used with permission</small> -->
+    <small>Warrior Cats: Ultimate Edition (Roblox) cosplay by [illusion-isg0ne](https://www.tumblr.com/illusion-isg0ne/833995330144092160/made-a-new-cosplay-in-wcue-what-do-you-think) on Tumblr</small>
 
 </div>
 

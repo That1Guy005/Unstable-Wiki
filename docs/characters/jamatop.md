@@ -39,13 +39,9 @@ tags:
 
     ---
 
-    :material-camera-plus-outline:{ .uu-slot-icon }
+    [![Cosplay of JamatoP by katsucksass](https://64.media.tumblr.com/5a95be41b70898b0f427c548a8bf4b5a/f81548de47ad33cc-81/s1280x1920/c0368f4610ef4fb1e44b221681b378b6edaecd2f.pnj){ .off-glb loading=lazy referrerpolicy=no-referrer }](https://www.tumblr.com/katsucksass/830103603456933888/aw-game-unstable-beans "Open the original post")
 
-    <small>No cosplay photo yet. [How to add one](../about.md#cosplay-photos)</small>
-
-    <!-- COSPLAY JamatoP: replace the icon and note above with, for example:
-    ![Cosplay of JamatoP by NAME](../assets/cosplay/jamatop.jpg){ loading=lazy }
-    <small>Cosplay by [NAME](LINK), used with permission</small> -->
+    <small>Roblox cosplay (group shot) by [katsucksass](https://www.tumblr.com/katsucksass/830103603456933888/aw-game-unstable-beans) on Tumblr</small>
 
 </div>
 
