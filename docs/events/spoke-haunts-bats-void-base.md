@@ -16,12 +16,22 @@ tags:
 
 While the [Bounty Assassin Team](../factions/bounty-assassin-team.md) is consumed by its hunt for the Director, [SpokeIsHere](../characters/spokeishere.md) is secretly living in the vents of their base over the void. From Spoke's side it's a 100-day prank campaign; from [ParrotX2](../characters/parrotx2.md)'s side it's a terrifying intruder who must be the Director, until it turns out to be Spoke.
 
+<div class="uu-mm-card" markdown>
+
 ```mermaid
-timeline
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Roboto, Helvetica, Arial, sans-serif", "fontSize": "15px", "primaryTextColor": "#1f1f1f", "textColor": "#1f1f1f", "titleColor": "#1f1f1f", "gridColor": "#d0d0d8", "taskBkgColor": "#5e35b1", "taskBorderColor": "#4527a0", "taskTextColor": "#ffffff", "taskTextLightColor": "#ffffff", "taskTextDarkColor": "#1f1f1f", "taskTextOutsideColor": "#1f1f1f", "taskTextClickableColor": "#1f1f1f", "sectionBkgColor": "#ede7f6", "altSectionBkgColor": "#ffffff", "sectionBkgColor2": "#fff3d6"}, "gantt": {"barHeight": 26, "barGap": 6, "fontSize": 14, "sectionFontSize": 15, "leftPadding": 135, "topPadding": 54, "gridLineStartPadding": 40, "titleTopMargin": 24}, "themeCSS": ".titleText{font-size:20px;font-weight:600;fill:#1f1f1f} .sectionTitle{font-size:15px;font-weight:600;fill:#1f1f1f} .tick text{font-size:13px;fill:#333} .taskText,.taskTextOutsideRight,.taskTextOutsideLeft{font-size:14px} .milestone{fill:#5e35b1;stroke:#4527a0}"}}%%
+gantt
     title Spoke Haunts BAT's Void Base
-        28 May 2025 : Ep. 44 I Spent 100 Days Trapped in a Minecraft Void Base...
-        31 May 2025 : Ep. 45 Hunting a Minecraft Player Who Doesn't Exist
+    dateFormat YYYY-MM-DD
+    axisFormat %d %b %Y
+    todayMarker off
+    section ParrotX2
+    Ep. 45 Hunting a Minecraft Player Who Doesn't Exist : milestone, m0, 2025-05-31, 0d
+    section SpokeIsHere
+    Ep. 44 I Spent 100 Days Trapped in a Minecraft Void Ba… : milestone, m1, 2025-05-28, 0d
 ```
+
+</div>
 
 ## Perspectives
 

@@ -20,19 +20,27 @@ tags:
 
 [SpokeIsHere](../characters/spokeishere.md) is pressed into [Leow0ok](../characters/leow0ok.md)'s [Bounty Assassin Team](../factions/bounty-assassin-team.md), runs a double life, and ends up at war with BAT and LAW, a conflict that ends with Leo's death in the war against LAW.
 
+<div class="uu-mm-card" markdown>
+
 ```mermaid
-timeline
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Roboto, Helvetica, Arial, sans-serif", "fontSize": "15px", "primaryTextColor": "#1f1f1f", "textColor": "#1f1f1f", "titleColor": "#1f1f1f", "gridColor": "#d0d0d8", "taskBkgColor": "#5e35b1", "taskBorderColor": "#4527a0", "taskTextColor": "#ffffff", "taskTextLightColor": "#ffffff", "taskTextDarkColor": "#1f1f1f", "taskTextOutsideColor": "#1f1f1f", "taskTextClickableColor": "#1f1f1f", "sectionBkgColor": "#ede7f6", "altSectionBkgColor": "#ffffff", "sectionBkgColor2": "#fff3d6"}, "gantt": {"barHeight": 26, "barGap": 6, "fontSize": 14, "sectionFontSize": 15, "leftPadding": 135, "topPadding": 54, "gridLineStartPadding": 40, "titleTopMargin": 24}, "themeCSS": ".titleText{font-size:20px;font-weight:600;fill:#1f1f1f} .sectionTitle{font-size:15px;font-weight:600;fill:#1f1f1f} .tick text{font-size:13px;fill:#333} .taskText,.taskTextOutsideRight,.taskTextOutsideLeft{font-size:14px} .milestone{fill:#5e35b1;stroke:#4527a0}"}}%%
+gantt
     title BAT Arc
+    dateFormat YYYY-MM-DD
+    axisFormat %b %Y
+    todayMarker off
     section SpokeIsHere
-        12 Sep 2025 : Ep. 69 I Became a Bounty Hunter on the Unstable SMP
-        27 Oct 2025 : Ep. 84 I Trapped Secret Bases on the Unstable SMP...
-        18 Nov 2025 : Ep. 88 I Got Hunted by Minecraft's Deadliest Stalkers...
-        8 Dec 2025 : Ep. 94 I Almost Got BANNED from the Unstable SMP...
-        19 Dec 2025 : Ep. 98 My Best Friend Died on the Unstable SMP
-        21 Jan 2026 : Ep. 105 Breaking Hardcore Minecraft to Get Revenge
-        5 Feb 2026 : Ep. 110 Minecraft Trapper VS 1000 Players
-        12 Feb 2026 : Ep. 113 4 Minecraft Pros VS 2500 Players
+    Ep. 69 I Became a Bounty Hunter on the Unstable SMP : milestone, m0, 2025-09-12, 0d
+    Ep. 84 I Trapped Secret Bases on the Unstable SMP... : milestone, m1, 2025-10-27, 0d
+    Ep. 88 I Got Hunted by Minecraft's Deadliest Stalkers.… : milestone, m2, 2025-11-18, 0d
+    Ep. 94 I Almost Got BANNED from the Unstable SMP... : milestone, m3, 2025-12-08, 0d
+    Ep. 98 My Best Friend Died on the Unstable SMP : milestone, m4, 2025-12-19, 0d
+    Ep. 105 Breaking Hardcore Minecraft to Get Revenge : milestone, m5, 2026-01-21, 0d
+    Ep. 110 Minecraft Trapper VS 1000 Players : milestone, m6, 2026-02-05, 0d
+    Ep. 113 4 Minecraft Pros VS 2500 Players : milestone, m7, 2026-02-12, 0d
 ```
+
+</div>
 
 ## Episodes
 

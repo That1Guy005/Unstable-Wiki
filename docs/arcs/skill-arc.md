@@ -20,21 +20,29 @@ tags:
 
 [FlameFrags](../characters/flamefrags.md)' quest to prove he's the strongest: rebuilding his gear, winning the tournament, losing his title to Wemmbu's cannons, and investigating Wemmbu's faked death, all the way to the 2v1000.
 
+<div class="uu-mm-card" markdown>
+
 ```mermaid
-timeline
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Roboto, Helvetica, Arial, sans-serif", "fontSize": "15px", "primaryTextColor": "#1f1f1f", "textColor": "#1f1f1f", "titleColor": "#1f1f1f", "gridColor": "#d0d0d8", "taskBkgColor": "#5e35b1", "taskBorderColor": "#4527a0", "taskTextColor": "#ffffff", "taskTextLightColor": "#ffffff", "taskTextDarkColor": "#1f1f1f", "taskTextOutsideColor": "#1f1f1f", "taskTextClickableColor": "#1f1f1f", "sectionBkgColor": "#ede7f6", "altSectionBkgColor": "#ffffff", "sectionBkgColor2": "#fff3d6"}, "gantt": {"barHeight": 26, "barGap": 6, "fontSize": 14, "sectionFontSize": 15, "leftPadding": 135, "topPadding": 54, "gridLineStartPadding": 40, "titleTopMargin": 24}, "themeCSS": ".titleText{font-size:20px;font-weight:600;fill:#1f1f1f} .sectionTitle{font-size:15px;font-weight:600;fill:#1f1f1f} .tick text{font-size:13px;fill:#333} .taskText,.taskTextOutsideRight,.taskTextOutsideLeft{font-size:14px} .milestone{fill:#5e35b1;stroke:#4527a0}"}}%%
+gantt
     title Skill Arc
+    dateFormat YYYY-MM-DD
+    axisFormat %b %Y
+    todayMarker off
     section FlameFrags
-        3 May 2025 : Ep. 39 I Became Immortal on a Hardcore Minecraft SMP
-        28 Jun 2025 : Ep. 50 Dominating Minecraft's Deadliest PVP Tournament
-        21 Aug 2025 : Ep. 65 Minecraft Pro VS Orbital Strike Cannon
-        30 Aug 2025 : Ep. 66 I Became Powerful on a Hardcore Minecraft Server
-        9 Sep 2025 : Ep. 68 Hunting a Minecraft Player Who Went Missing
-        27 Sep 2025 : Ep. 74 Hunting a Player Who Faked His Death
-        7 Oct 2025 : Ep. 76 I Infiltrated Minecraft's Deadliest Faction
-        18 Oct 2025 : Ep. 80 100 Players VS Minecraft Combat Master
-        27 Oct 2025 : Ep. 83 Exposing a Player Who Faked His Death
-        1 Nov 2025 : Ep. 85 2 VS 1000 Player Minecraft War
+    Ep. 39 I Became Immortal on a Hardcore Minecraft SMP : milestone, m0, 2025-05-03, 0d
+    Ep. 50 Dominating Minecraft's Deadliest PVP Tournament : milestone, m1, 2025-06-28, 0d
+    Ep. 65 Minecraft Pro VS Orbital Strike Cannon : milestone, m2, 2025-08-21, 0d
+    Ep. 66 I Became Powerful on a Hardcore Minecraft Server : milestone, m3, 2025-08-30, 0d
+    Ep. 68 Hunting a Minecraft Player Who Went Missing : milestone, m4, 2025-09-09, 0d
+    Ep. 74 Hunting a Player Who Faked His Death : milestone, m5, 2025-09-27, 0d
+    Ep. 76 I Infiltrated Minecraft's Deadliest Faction : milestone, m6, 2025-10-07, 0d
+    Ep. 80 100 Players VS Minecraft Combat Master : milestone, m7, 2025-10-18, 0d
+    Ep. 83 Exposing a Player Who Faked His Death : milestone, m8, 2025-10-27, 0d
+    Ep. 85 2 VS 1000 Player Minecraft War : milestone, m9, 2025-11-01, 0d
 ```
+
+</div>
 
 ## Episodes
 

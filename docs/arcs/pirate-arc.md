@@ -20,15 +20,23 @@ tags:
 
 [Wemmbu](../characters/wemmbu.md)'s first Season 2 arc. After the Mafia's fall he and [Eggchan](../characters/eggchan.md) try to settle down, build an empire, are robbed and exiled to [The Great Sea](../places/the-great-sea.md) by [Jaden_MAN](../characters/jaden-man.md)'s [Pirates](../factions/pirates.md), and end it by trapping Jaden in [The Abandoned Civilization](../places/the-abandoned-civilization.md).
 
+<div class="uu-mm-card" markdown>
+
 ```mermaid
-timeline
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Roboto, Helvetica, Arial, sans-serif", "fontSize": "15px", "primaryTextColor": "#1f1f1f", "textColor": "#1f1f1f", "titleColor": "#1f1f1f", "gridColor": "#d0d0d8", "taskBkgColor": "#5e35b1", "taskBorderColor": "#4527a0", "taskTextColor": "#ffffff", "taskTextLightColor": "#ffffff", "taskTextDarkColor": "#1f1f1f", "taskTextOutsideColor": "#1f1f1f", "taskTextClickableColor": "#1f1f1f", "sectionBkgColor": "#ede7f6", "altSectionBkgColor": "#ffffff", "sectionBkgColor2": "#fff3d6"}, "gantt": {"barHeight": 26, "barGap": 6, "fontSize": 14, "sectionFontSize": 15, "leftPadding": 135, "topPadding": 54, "gridLineStartPadding": 40, "titleTopMargin": 24}, "themeCSS": ".titleText{font-size:20px;font-weight:600;fill:#1f1f1f} .sectionTitle{font-size:15px;font-weight:600;fill:#1f1f1f} .tick text{font-size:13px;fill:#333} .taskText,.taskTextOutsideRight,.taskTextOutsideLeft{font-size:14px} .milestone{fill:#5e35b1;stroke:#4527a0}"}}%%
+gantt
     title Pirate Arc
+    dateFormat YYYY-MM-DD
+    axisFormat %b %Y
+    todayMarker off
     section Wemmbu
-        2 Feb 2025 : Ep. 28 Unstable SMP - After The Mafia
-        27 Feb 2025 : Ep. 30 Unstable SMP - The Eggchan Empire
-        14 Mar 2025 : Ep. 33 I Explored a Deserted Minecraft Civilization
-        21 Apr 2025 : Ep. 36 I Explored an Abandoned Minecraft Civilization
+    Ep. 28 Unstable SMP - After The Mafia : milestone, m0, 2025-02-02, 0d
+    Ep. 30 Unstable SMP - The Eggchan Empire : milestone, m1, 2025-02-27, 0d
+    Ep. 33 I Explored a Deserted Minecraft Civilization : milestone, m2, 2025-03-14, 0d
+    Ep. 36 I Explored an Abandoned Minecraft Civilization : milestone, m3, 2025-04-21, 0d
 ```
+
+</div>
 
 ## Episodes
 

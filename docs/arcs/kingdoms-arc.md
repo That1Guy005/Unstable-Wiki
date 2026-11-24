@@ -20,26 +20,34 @@ tags:
 
 The Season 2+ saga of [Wemmbu](../characters/wemmbu.md) and [FlameFrags](../characters/flamefrags.md): Wemmbu's struggle against [Arachn1d](../characters/arachn1d.md)'s [Kingdom of the Caves](../factions/kingdom-of-the-caves.md) to free [Eggchan](../characters/eggchan.md), and Flame's road from LAW's errand runner through the Mist to Cindercrest's side of the civil war.
 
+<div class="uu-mm-card" markdown>
+
 ```mermaid
-timeline
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Roboto, Helvetica, Arial, sans-serif", "fontSize": "15px", "primaryTextColor": "#1f1f1f", "textColor": "#1f1f1f", "titleColor": "#1f1f1f", "gridColor": "#d0d0d8", "taskBkgColor": "#5e35b1", "taskBorderColor": "#4527a0", "taskTextColor": "#ffffff", "taskTextLightColor": "#ffffff", "taskTextDarkColor": "#1f1f1f", "taskTextOutsideColor": "#1f1f1f", "taskTextClickableColor": "#1f1f1f", "sectionBkgColor": "#ede7f6", "altSectionBkgColor": "#ffffff", "sectionBkgColor2": "#fff3d6"}, "gantt": {"barHeight": 26, "barGap": 6, "fontSize": 14, "sectionFontSize": 15, "leftPadding": 135, "topPadding": 54, "gridLineStartPadding": 40, "titleTopMargin": 24}, "themeCSS": ".titleText{font-size:20px;font-weight:600;fill:#1f1f1f} .sectionTitle{font-size:15px;font-weight:600;fill:#1f1f1f} .tick text{font-size:13px;fill:#333} .taskText,.taskTextOutsideRight,.taskTextOutsideLeft{font-size:14px} .milestone{fill:#5e35b1;stroke:#4527a0}"}}%%
+gantt
     title Kingdoms Arc
+    dateFormat YYYY-MM-DD
+    axisFormat %b %Y
+    todayMarker off
     section Wemmbu
-        21 Feb 2026 : Ep. 116 I Joined a 100,000 Player Minecraft Server
-        15 Mar 2026 : Ep. 121 Minecraft Pro VS 1000 Player Civilization
-        2 May 2026 : Ep. 128 I Got Hunted by the World's Deadliest Assassin
-        9 May 2026 : Ep. 131 Searching For My Friend Who Went Missing
-        21 May 2026 : Ep. 134 1000 Players Simulate UNDERGROUND Civilization in Minecraft
-        30 May 2026 : Ep. 136 I Went to WAR on a Hardcore Minecraft SMP
-        6 Jun 2026 : Ep. 139 1000 Players Simulate THE PURGE in Minecraft
-        22 Aug 2026 : Ep. 150 How I Destroyed an Entire Minecraft Civilization
+    Ep. 116 I Joined a 100,000 Player Minecraft Server : milestone, m0, 2026-02-21, 0d
+    Ep. 121 Minecraft Pro VS 1000 Player Civilization : milestone, m1, 2026-03-15, 0d
+    Ep. 128 I Got Hunted by the World's Deadliest Assassin : milestone, m2, 2026-05-02, 0d
+    Ep. 131 Searching For My Friend Who Went Missing : milestone, m3, 2026-05-09, 0d
+    Ep. 134 1000 Players Simulate UNDERGROUND Civilization… : milestone, m4, 2026-05-21, 0d
+    Ep. 136 I Went to WAR on a Hardcore Minecraft SMP : milestone, m5, 2026-05-30, 0d
+    Ep. 139 1000 Players Simulate THE PURGE in Minecraft : milestone, m6, 2026-06-06, 0d
+    Ep. 150 How I Destroyed an Entire Minecraft Civilizati… : milestone, m7, 2026-08-22, 0d
     section FlameFrags
-        27 Feb 2026 : Ep. 117 I Became a Minecraft Combat Master
-        14 Mar 2026 : Ep. 120 I Joined the Minecraft LAW
-        8 Apr 2026 : Ep. 124 I Explored the Minecraft Mist
-        30 Apr 2026 : Ep. 127 1000 Players Simulate MIST War in Minecraft
-        15 May 2026 : Ep. 132 I Joined a 10,000 Player Minecraft Army
-        1 Jun 2026 : Ep. 137 1000 VS 1000 Player Minecraft Civil War
+    Ep. 117 I Became a Minecraft Combat Master : milestone, m8, 2026-02-27, 0d
+    Ep. 120 I Joined the Minecraft LAW : milestone, m9, 2026-03-14, 0d
+    Ep. 124 I Explored the Minecraft Mist : milestone, m10, 2026-04-08, 0d
+    Ep. 127 1000 Players Simulate MIST War in Minecraft : milestone, m11, 2026-04-30, 0d
+    Ep. 132 I Joined a 10,000 Player Minecraft Army : milestone, m12, 2026-05-15, 0d
+    Ep. 137 1000 VS 1000 Player Minecraft Civil War : milestone, m13, 2026-06-01, 0d
 ```
+
+</div>
 
 ## Episodes
 

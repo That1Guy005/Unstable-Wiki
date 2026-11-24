@@ -42,7 +42,7 @@
 .md-typeset .uu-zoomable { position: relative; cursor: zoom-in; }
 .md-typeset .uu-zoom-btn { position: absolute; top: .3rem; right: .3rem; z-index: 2; width: 1.6rem; height: 1.6rem; padding: .2rem;
   border-radius: 50%; border: .05rem solid var(--md-default-fg-color--lighter); cursor: zoom-in;
-  background: var(--md-default-bg-color); color: var(--md-default-fg-color--light); opacity: .6; transition: opacity .15s; }
+  background: var(--md-default-bg-color); color: var(--md-default-fg-color--light); opacity: 0; transition: opacity .15s; }
 .md-typeset .uu-zoom-btn svg { width: 100%; height: 100%; fill: currentColor; display: block; }
 .md-typeset .uu-zoomable:hover .uu-zoom-btn, .md-typeset .uu-zoom-btn:focus-visible { opacity: 1; color: var(--md-accent-fg-color); }
 html.uu-lb-open { overflow: hidden; }
@@ -67,3 +67,9 @@ html.uu-lb-open { overflow: hidden; }
   border: .05rem solid var(--md-default-fg-color--lighter); background: transparent; color: inherit; }
 #uu-graph-box:fullscreen { background: var(--md-default-bg-color); padding: .8rem; display: flex; flex-direction: column; }
 #uu-graph-box:fullscreen #uu-graph { flex: 1; height: auto; }
+@media (hover: none) { .md-typeset .uu-zoom-btn { opacity: .85; } }
+/* Gantt and pie diagrams sit on a light card so their text is readable in light and dark mode */
+.md-typeset .uu-mm-card { background: #fdfdff; color: #1f1f1f; border: .05rem solid var(--md-default-fg-color--lightest);
+  border-radius: .4rem; padding: .4rem .5rem; margin: 1em 0; }
+.md-typeset .uu-mm-card .mermaid { margin: 0; }
+.uu-lb-holder.uu-lb-light { background: #fdfdff; border-radius: .4rem; padding: .5rem; }

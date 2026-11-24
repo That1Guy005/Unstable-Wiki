@@ -16,17 +16,28 @@ tags:
 
 King [ParrotX2](../characters/parrotx2.md)'s open Spawn splits the server into new and old players. [Saparata](../characters/saparata.md)'s [Cindercrest](../factions/cindercrest.md), allied with [Arachn1d](../characters/arachn1d.md)'s [Kingdom of the Caves](../factions/kingdom-of-the-caves.md), goes to war with Parrot's kingdom; [FlameFrags](../characters/flamefrags.md) fights for Cindercrest out of loyalty to [Lomedy](../characters/lomedy.md), and [Wemmbu](../characters/wemmbu.md) is forced to fight for the caves because Arachn1d holds [Eggchan](../characters/eggchan.md) hostage. The war ends with Parrot exiled and Saparata crowned the second king.
 
+<div class="uu-mm-card" markdown>
+
 ```mermaid
-timeline
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Roboto, Helvetica, Arial, sans-serif", "fontSize": "15px", "primaryTextColor": "#1f1f1f", "textColor": "#1f1f1f", "titleColor": "#1f1f1f", "gridColor": "#d0d0d8", "taskBkgColor": "#5e35b1", "taskBorderColor": "#4527a0", "taskTextColor": "#ffffff", "taskTextLightColor": "#ffffff", "taskTextDarkColor": "#1f1f1f", "taskTextOutsideColor": "#1f1f1f", "taskTextClickableColor": "#1f1f1f", "sectionBkgColor": "#ede7f6", "altSectionBkgColor": "#ffffff", "sectionBkgColor2": "#fff3d6"}, "gantt": {"barHeight": 26, "barGap": 6, "fontSize": 14, "sectionFontSize": 15, "leftPadding": 135, "topPadding": 54, "gridLineStartPadding": 40, "titleTopMargin": 24}, "themeCSS": ".titleText{font-size:20px;font-weight:600;fill:#1f1f1f} .sectionTitle{font-size:15px;font-weight:600;fill:#1f1f1f} .tick text{font-size:13px;fill:#333} .taskText,.taskTextOutsideRight,.taskTextOutsideLeft{font-size:14px} .milestone{fill:#5e35b1;stroke:#4527a0}"}}%%
+gantt
     title The Civil War
-        4 May 2026 : Ep. 129 I Created the World's Largest Minecraft Army
-        15 May 2026 : Ep. 132 I Joined a 10,000 Player Minecraft Army
-        16 May 2026 : Ep. 133 Unstable SMP - Civil War
-        21 May 2026 : Ep. 134 1000 Players Simulate UNDERGROUND Civilization in Minecraft
-        30 May 2026 : Ep. 136 I Went to WAR on a Hardcore Minecraft SMP
-        1 Jun 2026 : Ep. 137 1000 VS 1000 Player Minecraft Civil War
-        3 Jun 2026 : Ep. 138 Unstable SMP - Civil War FINALE
+    dateFormat YYYY-MM-DD
+    axisFormat %d %b %Y
+    todayMarker off
+    section ParrotX2
+    Ep. 129 I Created the World's Largest Minecraft Army : milestone, m0, 2026-05-04, 0d
+    Ep. 133 Unstable SMP - Civil War : milestone, m1, 2026-05-16, 0d
+    Ep. 138 Unstable SMP - Civil War FINALE : milestone, m2, 2026-06-03, 0d
+    section Wemmbu
+    Ep. 134 1000 Players Simulate UNDERGROUND Civilization… : milestone, m3, 2026-05-21, 0d
+    Ep. 136 I Went to WAR on a Hardcore Minecraft SMP : milestone, m4, 2026-05-30, 0d
+    section FlameFrags
+    Ep. 132 I Joined a 10,000 Player Minecraft Army : milestone, m5, 2026-05-15, 0d
+    Ep. 137 1000 VS 1000 Player Minecraft Civil War : milestone, m6, 2026-06-01, 0d
 ```
+
+</div>
 
 ## Perspectives
 

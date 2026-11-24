@@ -9,8 +9,10 @@ The four POVs run in parallel. Each bar spans an arc from its first to its last 
 
 ## Arcs by POV
 
+<div class="uu-mm-card" markdown>
+
 ```mermaid
-%%{init: {"gantt": {"barHeight": 22, "barGap": 6, "fontSize": 13, "sectionFontSize": 13, "leftPadding": 110, "topPadding": 40}}}%%
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Roboto, Helvetica, Arial, sans-serif", "fontSize": "15px", "primaryTextColor": "#1f1f1f", "textColor": "#1f1f1f", "titleColor": "#1f1f1f", "gridColor": "#d0d0d8", "taskBkgColor": "#5e35b1", "taskBorderColor": "#4527a0", "taskTextColor": "#ffffff", "taskTextLightColor": "#ffffff", "taskTextDarkColor": "#1f1f1f", "taskTextOutsideColor": "#1f1f1f", "taskTextClickableColor": "#1f1f1f", "sectionBkgColor": "#ede7f6", "altSectionBkgColor": "#ffffff", "sectionBkgColor2": "#fff3d6"}, "gantt": {"barHeight": 26, "barGap": 6, "fontSize": 14, "sectionFontSize": 15, "leftPadding": 135, "topPadding": 54, "gridLineStartPadding": 40, "titleTopMargin": 24}, "themeCSS": ".titleText{font-size:20px;font-weight:600;fill:#1f1f1f} .sectionTitle{font-size:15px;font-weight:600;fill:#1f1f1f} .tick text{font-size:13px;fill:#333} .taskText,.taskTextOutsideRight,.taskTextOutsideLeft{font-size:14px} .milestone{fill:#5e35b1;stroke:#4527a0}"}}%%
 gantt
     title Story arcs by POV
     dateFormat YYYY-MM-DD
@@ -52,38 +54,48 @@ gantt
     Rebirth Arc : 2026-09-11, 2026-10-31
 ```
 
+</div>
+
 ## Multi-POV events
 
+<div class="uu-mm-card" markdown>
+
 ```mermaid
-timeline
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Roboto, Helvetica, Arial, sans-serif", "fontSize": "15px", "primaryTextColor": "#1f1f1f", "textColor": "#1f1f1f", "titleColor": "#1f1f1f", "gridColor": "#d0d0d8", "taskBkgColor": "#5e35b1", "taskBorderColor": "#4527a0", "taskTextColor": "#ffffff", "taskTextLightColor": "#ffffff", "taskTextDarkColor": "#1f1f1f", "taskTextOutsideColor": "#1f1f1f", "taskTextClickableColor": "#1f1f1f", "sectionBkgColor": "#ede7f6", "altSectionBkgColor": "#ffffff", "sectionBkgColor2": "#fff3d6"}, "gantt": {"barHeight": 26, "barGap": 6, "fontSize": 14, "sectionFontSize": 15, "leftPadding": 135, "topPadding": 54, "gridLineStartPadding": 40, "titleTopMargin": 24}, "themeCSS": ".titleText{font-size:20px;font-weight:600;fill:#1f1f1f} .sectionTitle{font-size:15px;font-weight:600;fill:#1f1f1f} .tick text{font-size:13px;fill:#333} .taskText,.taskTextOutsideRight,.taskTextOutsideLeft{font-size:14px} .milestone{fill:#5e35b1;stroke:#4527a0}"}}%%
+gantt
     title Events across the seasons
+    dateFormat YYYY-MM-DD
+    axisFormat %b %Y
+    todayMarker off
     section Season 1
-        21 Apr 2024 : Destruction of the Wonders
-        17 May 2024 : Spoke's Scavenger Hunt and Chunk Ban
-        22 Jul 2024 : Imprisonment in Proton
-        21 Jan 2025 : Fall of the Invisible Mafia
+    Destruction of the Wonders : 2024-04-21, 2024-04-28
+    Spoke's Scavenger Hunt and Chunk Ban : 2024-05-17, 2024-05-25
+    Imprisonment in Proton : 2024-07-22, 2024-09-27
+    Fall of the Invisible Mafia : 2025-01-21, 2025-01-30
     section Season 2
-        21 Apr 2025 : Jaden Trapped in the Abandoned Civilization
-        3 May 2025 : Wemmbu and FlameFrags' Rematch
-        28 May 2025 : Spoke Haunts BAT's Void Base
-        25 Jun 2025 : The PvP Tournament
-        15 Jul 2025 : The Avengers' Hunt for Wemmbu
-        20 Aug 2025 : The Orbital Strike Cannon War
-        30 Aug 2025 : Wemmbu's Fake Death
-        20 Sep 2025 : The Sunken Empire Treasure Hunt
-        7 Oct 2025 : Raid on Clown's Nether Vault
-        1 Nov 2025 : The 2 VS 1000 War
-        22 Nov 2025 : The LAW Prison
-        28 Nov 2025 : The Election for King
-        24 Jan 2026 : Parrot Recruits Wemmbu
-        10 Feb 2026 : The War Against LAW
+    Jaden Trapped in the Abandoned Civiliza… : 2025-04-21, 2025-07-04
+    Wemmbu and FlameFrags' Rematch : 2025-05-03, 2025-05-10
+    Spoke Haunts BAT's Void Base : 2025-05-28, 2025-06-04
+    The PvP Tournament : 2025-06-25, 2025-07-02
+    The Avengers' Hunt for Wemmbu : 2025-07-15, 2025-07-22
+    The Orbital Strike Cannon War : 2025-08-20, 2025-09-12
+    Wemmbu's Fake Death : 2025-08-30, 2025-10-27
+    The Sunken Empire Treasure Hunt : 2025-09-20, 2025-09-27
+    Raid on Clown's Nether Vault : 2025-10-07, 2025-10-14
+    The 2 VS 1000 War : 2025-11-01, 2025-11-08
+    The LAW Prison : 2025-11-22, 2025-12-08
+    The Election for King : 2025-11-28, 2026-01-15
+    Parrot Recruits Wemmbu : 2026-01-24, 2026-01-31
+    The War Against LAW : 2026-02-10, 2026-02-17
     section Season 2+
-        4 May 2026 : The Civil War
-        6 Jun 2026 : The Purge of the Caves
-        26 Jul 2026 : NULL's Conquest of the End
-        6 Sep 2026 : Trapped in the Underworld
-        23 Oct 2026 : The Dimensional War
+    The Civil War : 2026-05-04, 2026-06-03
+    The Purge of the Caves : 2026-06-06, 2026-06-13
+    NULL's Conquest of the End : 2026-07-26, 2026-10-15
+    Trapped in the Underworld : 2026-09-06, 2026-09-22
+    The Dimensional War : 2026-10-23, 2026-11-02
 ```
+
+</div>
 
 | Event | Started | Episodes | POVs |
 |---|---|---|---|
@@ -115,8 +127,10 @@ timeline
 
 27 episodes, 21 Apr 2024 – 30 Jan 2025. See the [Season 1 page](../episodes/season-1/index.md) for the full list.
 
+<div class="uu-mm-card" markdown>
+
 ```mermaid
-%%{init: {"gantt": {"barHeight": 22, "barGap": 6, "fontSize": 13, "sectionFontSize": 13, "leftPadding": 110, "topPadding": 40}}}%%
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Roboto, Helvetica, Arial, sans-serif", "fontSize": "15px", "primaryTextColor": "#1f1f1f", "textColor": "#1f1f1f", "titleColor": "#1f1f1f", "gridColor": "#d0d0d8", "taskBkgColor": "#5e35b1", "taskBorderColor": "#4527a0", "taskTextColor": "#ffffff", "taskTextLightColor": "#ffffff", "taskTextDarkColor": "#1f1f1f", "taskTextOutsideColor": "#1f1f1f", "taskTextClickableColor": "#1f1f1f", "sectionBkgColor": "#ede7f6", "altSectionBkgColor": "#ffffff", "sectionBkgColor2": "#fff3d6"}, "gantt": {"barHeight": 26, "barGap": 6, "fontSize": 14, "sectionFontSize": 15, "leftPadding": 135, "topPadding": 54, "gridLineStartPadding": 40, "titleTopMargin": 24}, "themeCSS": ".titleText{font-size:20px;font-weight:600;fill:#1f1f1f} .sectionTitle{font-size:15px;font-weight:600;fill:#1f1f1f} .tick text{font-size:13px;fill:#333} .taskText,.taskTextOutsideRight,.taskTextOutsideLeft{font-size:14px} .milestone{fill:#5e35b1;stroke:#4527a0}"}}%%
 gantt
     title Season 1 arcs
     dateFormat YYYY-MM-DD
@@ -132,12 +146,16 @@ gantt
     Invisible Mafia Arc : 2024-10-05, 2025-01-30
 ```
 
+</div>
+
 ## Season 2
 
 88 episodes, 2 Feb 2025 – 16 Feb 2026. See the [Season 2 page](../episodes/season-2/index.md) for the full list.
 
+<div class="uu-mm-card" markdown>
+
 ```mermaid
-%%{init: {"gantt": {"barHeight": 22, "barGap": 6, "fontSize": 13, "sectionFontSize": 13, "leftPadding": 110, "topPadding": 40}}}%%
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Roboto, Helvetica, Arial, sans-serif", "fontSize": "15px", "primaryTextColor": "#1f1f1f", "textColor": "#1f1f1f", "titleColor": "#1f1f1f", "gridColor": "#d0d0d8", "taskBkgColor": "#5e35b1", "taskBorderColor": "#4527a0", "taskTextColor": "#ffffff", "taskTextLightColor": "#ffffff", "taskTextDarkColor": "#1f1f1f", "taskTextOutsideColor": "#1f1f1f", "taskTextClickableColor": "#1f1f1f", "sectionBkgColor": "#ede7f6", "altSectionBkgColor": "#ffffff", "sectionBkgColor2": "#fff3d6"}, "gantt": {"barHeight": 26, "barGap": 6, "fontSize": 14, "sectionFontSize": 15, "leftPadding": 135, "topPadding": 54, "gridLineStartPadding": 40, "titleTopMargin": 24}, "themeCSS": ".titleText{font-size:20px;font-weight:600;fill:#1f1f1f} .sectionTitle{font-size:15px;font-weight:600;fill:#1f1f1f} .tick text{font-size:13px;fill:#333} .taskText,.taskTextOutsideRight,.taskTextOutsideLeft{font-size:14px} .milestone{fill:#5e35b1;stroke:#4527a0}"}}%%
 gantt
     title Season 2 arcs
     dateFormat YYYY-MM-DD
@@ -163,12 +181,16 @@ gantt
     Training Arc : 2025-11-22, 2026-02-16
 ```
 
+</div>
+
 ## Season 2+
 
 46 episodes, 21 Feb 2026 – 2 Nov 2026. See the [Season 2+ page](../episodes/season-2-plus/index.md) for the full list.
 
+<div class="uu-mm-card" markdown>
+
 ```mermaid
-%%{init: {"gantt": {"barHeight": 22, "barGap": 6, "fontSize": 13, "sectionFontSize": 13, "leftPadding": 110, "topPadding": 40}}}%%
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Roboto, Helvetica, Arial, sans-serif", "fontSize": "15px", "primaryTextColor": "#1f1f1f", "textColor": "#1f1f1f", "titleColor": "#1f1f1f", "gridColor": "#d0d0d8", "taskBkgColor": "#5e35b1", "taskBorderColor": "#4527a0", "taskTextColor": "#ffffff", "taskTextLightColor": "#ffffff", "taskTextDarkColor": "#1f1f1f", "taskTextOutsideColor": "#1f1f1f", "taskTextClickableColor": "#1f1f1f", "sectionBkgColor": "#ede7f6", "altSectionBkgColor": "#ffffff", "sectionBkgColor2": "#fff3d6"}, "gantt": {"barHeight": 26, "barGap": 6, "fontSize": 14, "sectionFontSize": 15, "leftPadding": 135, "topPadding": 54, "gridLineStartPadding": 40, "titleTopMargin": 24}, "themeCSS": ".titleText{font-size:20px;font-weight:600;fill:#1f1f1f} .sectionTitle{font-size:15px;font-weight:600;fill:#1f1f1f} .tick text{font-size:13px;fill:#333} .taskText,.taskTextOutsideRight,.taskTextOutsideLeft{font-size:14px} .milestone{fill:#5e35b1;stroke:#4527a0}"}}%%
 gantt
     title Season 2+ arcs
     dateFormat YYYY-MM-DD
@@ -190,3 +212,5 @@ gantt
     Warriors Arc : 2026-06-19, 2026-08-14
     Rebirth Arc : 2026-09-11, 2026-10-31
 ```
+
+</div>

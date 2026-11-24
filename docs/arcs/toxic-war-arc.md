@@ -20,14 +20,22 @@ tags:
 
 [FlameFrags](../characters/flamefrags.md)' first arc: a one-man war against a toxic clan that killed his pets, ending with the masked VEN0M and the start of his friendship with [Lomedy](../characters/lomedy.md).
 
+<div class="uu-mm-card" markdown>
+
 ```mermaid
-timeline
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Roboto, Helvetica, Arial, sans-serif", "fontSize": "15px", "primaryTextColor": "#1f1f1f", "textColor": "#1f1f1f", "titleColor": "#1f1f1f", "gridColor": "#d0d0d8", "taskBkgColor": "#5e35b1", "taskBorderColor": "#4527a0", "taskTextColor": "#ffffff", "taskTextLightColor": "#ffffff", "taskTextDarkColor": "#1f1f1f", "taskTextOutsideColor": "#1f1f1f", "taskTextClickableColor": "#1f1f1f", "sectionBkgColor": "#ede7f6", "altSectionBkgColor": "#ffffff", "sectionBkgColor2": "#fff3d6"}, "gantt": {"barHeight": 26, "barGap": 6, "fontSize": 14, "sectionFontSize": 15, "leftPadding": 135, "topPadding": 54, "gridLineStartPadding": 40, "titleTopMargin": 24}, "themeCSS": ".titleText{font-size:20px;font-weight:600;fill:#1f1f1f} .sectionTitle{font-size:15px;font-weight:600;fill:#1f1f1f} .tick text{font-size:13px;fill:#333} .taskText,.taskTextOutsideRight,.taskTextOutsideLeft{font-size:14px} .milestone{fill:#5e35b1;stroke:#4527a0}"}}%%
+gantt
     title Toxic War Arc
+    dateFormat YYYY-MM-DD
+    axisFormat %d %b %Y
+    todayMarker off
     section FlameFrags
-        17 May 2025 : Ep. 41 SOLO Player VS Toxic Minecraft Team
-        1 Jun 2025 : Ep. 46 SOLO Player VS Toxic Minecraft Clan
-        12 Jun 2025 : Ep. 48 SOLO Player VS Toxic Minecraft Civilization
+    Ep. 41 SOLO Player VS Toxic Minecraft Team : milestone, m0, 2025-05-17, 0d
+    Ep. 46 SOLO Player VS Toxic Minecraft Clan : milestone, m1, 2025-06-01, 0d
+    Ep. 48 SOLO Player VS Toxic Minecraft Civilization : milestone, m2, 2025-06-12, 0d
 ```
+
+</div>
 
 ## Episodes
 

@@ -16,13 +16,22 @@ tags:
 
 [LettuceK](../characters/lettucek.md) announces an election for the first king of the Unstable SMP. Dozens of candidates enter and are halved every two weeks, while [ParrotX2](../characters/parrotx2.md), picked by the mysterious "Owl", climbs from last place. The election ends with the Purge, the war against [LAW](../factions/law.md), and Parrot crowned king.
 
+<div class="uu-mm-card" markdown>
+
 ```mermaid
-timeline
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Roboto, Helvetica, Arial, sans-serif", "fontSize": "15px", "primaryTextColor": "#1f1f1f", "textColor": "#1f1f1f", "titleColor": "#1f1f1f", "gridColor": "#d0d0d8", "taskBkgColor": "#5e35b1", "taskBorderColor": "#4527a0", "taskTextColor": "#ffffff", "taskTextLightColor": "#ffffff", "taskTextDarkColor": "#1f1f1f", "taskTextOutsideColor": "#1f1f1f", "taskTextClickableColor": "#1f1f1f", "sectionBkgColor": "#ede7f6", "altSectionBkgColor": "#ffffff", "sectionBkgColor2": "#fff3d6"}, "gantt": {"barHeight": 26, "barGap": 6, "fontSize": 14, "sectionFontSize": 15, "leftPadding": 135, "topPadding": 54, "gridLineStartPadding": 40, "titleTopMargin": 24}, "themeCSS": ".titleText{font-size:20px;font-weight:600;fill:#1f1f1f} .sectionTitle{font-size:15px;font-weight:600;fill:#1f1f1f} .tick text{font-size:13px;fill:#333} .taskText,.taskTextOutsideRight,.taskTextOutsideLeft{font-size:14px} .milestone{fill:#5e35b1;stroke:#4527a0}"}}%%
+gantt
     title The Election for King
-        28 Nov 2025 : Ep. 91 Unstable SMP - The First King
-        24 Dec 2025 : Ep. 99 I Ran for King on the Unstable SMP
-        15 Jan 2026 : Ep. 103 I Survived the Unstable SMP Purge
+    dateFormat YYYY-MM-DD
+    axisFormat %d %b %Y
+    todayMarker off
+    section ParrotX2
+    Ep. 91 Unstable SMP - The First King : milestone, m0, 2025-11-28, 0d
+    Ep. 99 I Ran for King on the Unstable SMP : milestone, m1, 2025-12-24, 0d
+    Ep. 103 I Survived the Unstable SMP Purge : milestone, m2, 2026-01-15, 0d
 ```
+
+</div>
 
 ## Perspectives
 

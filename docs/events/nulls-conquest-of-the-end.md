@@ -16,15 +16,26 @@ tags:
 
 With the Totem of NULL, [SpokeIsHere](../characters/spokeishere.md) turns [NULL](../factions/null.md) into the [End Empire](../places/end-empire.md). He overthrows the End's guardian [MinuteTech](../characters/minutetech.md), tries to recruit [Wemmbu](../characters/wemmbu.md) for his orbital cannons, and fills an End prison with captives, among them [ParrotX2](../characters/parrotx2.md). The same campaign is seen from inside by Wemmbu, hunted into the Underworld, and by Parrot, fighting through the prison's five floors.
 
+<div class="uu-mm-card" markdown>
+
 ```mermaid
-timeline
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Roboto, Helvetica, Arial, sans-serif", "fontSize": "15px", "primaryTextColor": "#1f1f1f", "textColor": "#1f1f1f", "titleColor": "#1f1f1f", "gridColor": "#d0d0d8", "taskBkgColor": "#5e35b1", "taskBorderColor": "#4527a0", "taskTextColor": "#ffffff", "taskTextLightColor": "#ffffff", "taskTextDarkColor": "#1f1f1f", "taskTextOutsideColor": "#1f1f1f", "taskTextClickableColor": "#1f1f1f", "sectionBkgColor": "#ede7f6", "altSectionBkgColor": "#ffffff", "sectionBkgColor2": "#fff3d6"}, "gantt": {"barHeight": 26, "barGap": 6, "fontSize": 14, "sectionFontSize": 15, "leftPadding": 135, "topPadding": 54, "gridLineStartPadding": 40, "titleTopMargin": 24}, "themeCSS": ".titleText{font-size:20px;font-weight:600;fill:#1f1f1f} .sectionTitle{font-size:15px;font-weight:600;fill:#1f1f1f} .tick text{font-size:13px;fill:#333} .taskText,.taskTextOutsideRight,.taskTextOutsideLeft{font-size:14px} .milestone{fill:#5e35b1;stroke:#4527a0}"}}%%
+gantt
     title NULL's Conquest of the End
-        26 Jul 2026 : Ep. 146 1000 Players Build END Civilization in Hardcore Minecraft
-        13 Aug 2026 : Ep. 148 I Created Minecraft's Greatest Military
-        19 Sep 2026 : Ep. 154 How I Saved the World's Largest Minecraft Server
-        20 Sep 2026 : Ep. 155 I Created Minecraft's Greatest Empire
-        15 Oct 2026 : Ep. 158 1000 Players Simulate End Prison in Minecraft
+    dateFormat YYYY-MM-DD
+    axisFormat %b %Y
+    todayMarker off
+    section ParrotX2
+    Ep. 158 1000 Players Simulate End Prison in Minecraft : milestone, m0, 2026-10-15, 0d
+    section Wemmbu
+    Ep. 154 How I Saved the World's Largest Minecraft Serv… : milestone, m1, 2026-09-19, 0d
+    section SpokeIsHere
+    Ep. 146 1000 Players Build END Civilization in Hardcor… : milestone, m2, 2026-07-26, 0d
+    Ep. 148 I Created Minecraft's Greatest Military : milestone, m3, 2026-08-13, 0d
+    Ep. 155 I Created Minecraft's Greatest Empire : milestone, m4, 2026-09-20, 0d
 ```
+
+</div>
 
 ## Perspectives
 

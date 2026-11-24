@@ -13,8 +13,10 @@ The episodes since February 2026 (the wiki also calls this Season 3), covering t
 
 <div class="grid" markdown>
 
+<div class="uu-mm-card" markdown>
+
 ```mermaid
-%%{init: {"themeVariables": {"pie1": "#2e7d32", "pie2": "#1565c0", "pie3": "#6a1b9a", "pie4": "#e65100", "pieSectionTextColor": "#ffffff", "pieOpacity": "0.9"}}}%%
+%%{init: {"theme": "base", "themeVariables": {"pie1": "#2e7d32", "pie2": "#1565c0", "pie3": "#6a1b9a", "pie4": "#e65100", "fontFamily": "Roboto, Helvetica, Arial, sans-serif", "pieSectionTextColor": "#ffffff", "pieSectionTextSize": "16px", "pieTitleTextColor": "#1f1f1f", "pieTitleTextSize": "20px", "pieLegendTextColor": "#1f1f1f", "pieLegendTextSize": "16px", "pieStrokeColor": "#ffffff", "pieStrokeWidth": "2px", "pieOuterStrokeWidth": "0px", "pieOpacity": "1"}, "themeCSS": ".legend text{fill:#1f1f1f !important;font-size:16px !important} .pieTitleText{fill:#1f1f1f !important}"}}%%
 pie showData
     title Season 2+ episodes by POV
     "ParrotX2" : 11
@@ -22,6 +24,8 @@ pie showData
     "SpokeIsHere" : 12
     "FlameFrags" : 14
 ```
+
+</div>
 
 | Episodes | 46 (ep. 116–161) |
 |---|---|
@@ -32,8 +36,10 @@ pie showData
 
 ## Arcs over time
 
+<div class="uu-mm-card" markdown>
+
 ```mermaid
-%%{init: {"gantt": {"barHeight": 22, "barGap": 6, "fontSize": 13, "sectionFontSize": 13, "leftPadding": 110, "topPadding": 40}}}%%
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Roboto, Helvetica, Arial, sans-serif", "fontSize": "15px", "primaryTextColor": "#1f1f1f", "textColor": "#1f1f1f", "titleColor": "#1f1f1f", "gridColor": "#d0d0d8", "taskBkgColor": "#5e35b1", "taskBorderColor": "#4527a0", "taskTextColor": "#ffffff", "taskTextLightColor": "#ffffff", "taskTextDarkColor": "#1f1f1f", "taskTextOutsideColor": "#1f1f1f", "taskTextClickableColor": "#1f1f1f", "sectionBkgColor": "#ede7f6", "altSectionBkgColor": "#ffffff", "sectionBkgColor2": "#fff3d6"}, "gantt": {"barHeight": 26, "barGap": 6, "fontSize": 14, "sectionFontSize": 15, "leftPadding": 135, "topPadding": 54, "gridLineStartPadding": 40, "titleTopMargin": 24}, "themeCSS": ".titleText{font-size:20px;font-weight:600;fill:#1f1f1f} .sectionTitle{font-size:15px;font-weight:600;fill:#1f1f1f} .tick text{font-size:13px;fill:#333} .taskText,.taskTextOutsideRight,.taskTextOutsideLeft{font-size:14px} .milestone{fill:#5e35b1;stroke:#4527a0}"}}%%
 gantt
     title Season 2+ arcs by POV
     dateFormat YYYY-MM-DD
@@ -55,6 +61,8 @@ gantt
     Warriors Arc : 2026-06-19, 2026-08-14
     Rebirth Arc : 2026-09-11, 2026-10-31
 ```
+
+</div>
 
 ## Episodes
 

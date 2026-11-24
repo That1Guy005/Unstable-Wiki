@@ -16,14 +16,26 @@ tags:
 
 The Season 2 finale, told from all four POVs. [LettuceK](../characters/lettucek.md) crowns himself king and imprisons [ParrotX2](../characters/parrotx2.md), and every protagonist has their own reason to fight. [SpokeIsHere](../characters/spokeishere.md) and [JumperWho](../characters/jumperwho.md) battle the combined [Bounty Assassin Team](../factions/bounty-assassin-team.md) and [LAW](../factions/law.md), [Wemmbu](../characters/wemmbu.md) and [FlameFrags](../characters/flamefrags.md) break their friends out of LAW HQ, and they all meet at the [Northern Council](../places/northern-council.md). Lettuce is defeated, [Leow0ok](../characters/leow0ok.md) dies, and Parrot is confirmed as king.
 
+<div class="uu-mm-card" markdown>
+
 ```mermaid
-timeline
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Roboto, Helvetica, Arial, sans-serif", "fontSize": "15px", "primaryTextColor": "#1f1f1f", "textColor": "#1f1f1f", "titleColor": "#1f1f1f", "gridColor": "#d0d0d8", "taskBkgColor": "#5e35b1", "taskBorderColor": "#4527a0", "taskTextColor": "#ffffff", "taskTextLightColor": "#ffffff", "taskTextDarkColor": "#1f1f1f", "taskTextOutsideColor": "#1f1f1f", "taskTextClickableColor": "#1f1f1f", "sectionBkgColor": "#ede7f6", "altSectionBkgColor": "#ffffff", "sectionBkgColor2": "#fff3d6"}, "gantt": {"barHeight": 26, "barGap": 6, "fontSize": 14, "sectionFontSize": 15, "leftPadding": 135, "topPadding": 54, "gridLineStartPadding": 40, "titleTopMargin": 24}, "themeCSS": ".titleText{font-size:20px;font-weight:600;fill:#1f1f1f} .sectionTitle{font-size:15px;font-weight:600;fill:#1f1f1f} .tick text{font-size:13px;fill:#333} .taskText,.taskTextOutsideRight,.taskTextOutsideLeft{font-size:14px} .milestone{fill:#5e35b1;stroke:#4527a0}"}}%%
+gantt
     title The War Against LAW
-        10 Feb 2026 : Ep. 112 I Became King of the Unstable SMP
-        12 Feb 2026 : Ep. 113 4 Minecraft Pros VS 2500 Players
-        14 Feb 2026 : Ep. 114 Unstable SMP - The LAW
-        16 Feb 2026 : Ep. 115 2500 Players VS Minecraft Combat Master
+    dateFormat YYYY-MM-DD
+    axisFormat %d %b %Y
+    todayMarker off
+    section ParrotX2
+    Ep. 112 I Became King of the Unstable SMP : milestone, m0, 2026-02-10, 0d
+    section Wemmbu
+    Ep. 114 Unstable SMP - The LAW : milestone, m1, 2026-02-14, 0d
+    section SpokeIsHere
+    Ep. 113 4 Minecraft Pros VS 2500 Players : milestone, m2, 2026-02-12, 0d
+    section FlameFrags
+    Ep. 115 2500 Players VS Minecraft Combat Master : milestone, m3, 2026-02-16, 0d
 ```
+
+</div>
 
 ## Perspectives
 

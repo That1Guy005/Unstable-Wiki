@@ -129,6 +129,26 @@ Charts built from the notes. Hover over a bar or point for exact numbers.
     "FlameFrags"
    ]
   }
+ },
+ "config": {
+  "font": "Roboto, Helvetica, Arial, sans-serif",
+  "axis": {
+   "labelFontSize": 13,
+   "titleFontSize": 14,
+   "titleFontWeight": 600
+  },
+  "legend": {
+   "labelFontSize": 13,
+   "titleFontSize": 14,
+   "symbolSize": 140
+  },
+  "title": {
+   "fontSize": 17,
+   "fontWeight": 600
+  },
+  "text": {
+   "fontSize": 13
+  }
  }
 }
 ```
@@ -669,6 +689,26 @@ Charts built from the notes. Hover over a bar or point for exact numbers.
      "#e65100"
     ]
    }
+  }
+ },
+ "config": {
+  "font": "Roboto, Helvetica, Arial, sans-serif",
+  "axis": {
+   "labelFontSize": 13,
+   "titleFontSize": 14,
+   "titleFontWeight": 600
+  },
+  "legend": {
+   "labelFontSize": 13,
+   "titleFontSize": 14,
+   "symbolSize": 140
+  },
+  "title": {
+   "fontSize": 17,
+   "fontWeight": 600
+  },
+  "text": {
+   "fontSize": 13
   }
  }
 }
@@ -1867,6 +1907,26 @@ Running total of POV episodes for each creator.
     "title": "Total"
    }
   ]
+ },
+ "config": {
+  "font": "Roboto, Helvetica, Arial, sans-serif",
+  "axis": {
+   "labelFontSize": 13,
+   "titleFontSize": 14,
+   "titleFontWeight": 600
+  },
+  "legend": {
+   "labelFontSize": 13,
+   "titleFontSize": 14,
+   "symbolSize": 140
+  },
+  "title": {
+   "fontSize": 17,
+   "fontWeight": 600
+  },
+  "text": {
+   "fontSize": 13
+  }
  }
 }
 ```
@@ -2001,6 +2061,26 @@ Number of story episodes each character appears in.
    "type": "quantitative",
    "title": "Episodes"
   }
+ },
+ "config": {
+  "font": "Roboto, Helvetica, Arial, sans-serif",
+  "axis": {
+   "labelFontSize": 13,
+   "titleFontSize": 14,
+   "titleFontWeight": 600
+  },
+  "legend": {
+   "labelFontSize": 13,
+   "titleFontSize": 14,
+   "symbolSize": 140
+  },
+  "title": {
+   "fontSize": 17,
+   "fontWeight": 600
+  },
+  "text": {
+   "fontSize": 13
+  }
  }
 }
 ```
@@ -2115,6 +2195,26 @@ Number of story episodes each place appears in.
    "type": "quantitative",
    "title": "Episodes"
   }
+ },
+ "config": {
+  "font": "Roboto, Helvetica, Arial, sans-serif",
+  "axis": {
+   "labelFontSize": 13,
+   "titleFontSize": 14,
+   "titleFontWeight": 600
+  },
+  "legend": {
+   "labelFontSize": 13,
+   "titleFontSize": 14,
+   "symbolSize": 140
+  },
+  "title": {
+   "fontSize": 17,
+   "fontWeight": 600
+  },
+  "text": {
+   "fontSize": 13
+  }
  }
 }
 ```
@@ -2220,6 +2320,26 @@ Number of story episodes each faction appears in.
    "field": "episodes",
    "type": "quantitative",
    "title": "Episodes"
+  }
+ },
+ "config": {
+  "font": "Roboto, Helvetica, Arial, sans-serif",
+  "axis": {
+   "labelFontSize": 13,
+   "titleFontSize": 14,
+   "titleFontWeight": 600
+  },
+  "legend": {
+   "labelFontSize": 13,
+   "titleFontSize": 14,
+   "symbolSize": 140
+  },
+  "title": {
+   "fontSize": 17,
+   "fontWeight": 600
+  },
+  "text": {
+   "fontSize": 13
   }
  }
 }
@@ -2354,6 +2474,26 @@ Number of story episodes each mechanic appears in.
    "field": "episodes",
    "type": "quantitative",
    "title": "Episodes"
+  }
+ },
+ "config": {
+  "font": "Roboto, Helvetica, Arial, sans-serif",
+  "axis": {
+   "labelFontSize": 13,
+   "titleFontSize": 14,
+   "titleFontWeight": 600
+  },
+  "legend": {
+   "labelFontSize": 13,
+   "titleFontSize": 14,
+   "symbolSize": 140
+  },
+  "title": {
+   "fontSize": 17,
+   "fontWeight": 600
+  },
+  "text": {
+   "fontSize": 13
   }
  }
 }
@@ -2725,6 +2865,26 @@ Episodes per season for the 20 most-seen characters.
    "scale": {
     "scheme": "purples"
    }
+  }
+ },
+ "config": {
+  "font": "Roboto, Helvetica, Arial, sans-serif",
+  "axis": {
+   "labelFontSize": 13,
+   "titleFontSize": 14,
+   "titleFontWeight": 600
+  },
+  "legend": {
+   "labelFontSize": 13,
+   "titleFontSize": 14,
+   "symbolSize": 140
+  },
+  "title": {
+   "fontSize": 17,
+   "fontWeight": 600
+  },
+  "text": {
+   "fontSize": 13
   }
  }
 }

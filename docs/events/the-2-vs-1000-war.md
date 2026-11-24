@@ -16,12 +16,22 @@ tags:
 
 To get [LAW](../factions/law.md) off their backs, [Wemmbu](../characters/wemmbu.md) and [FlameFrags](../characters/flamefrags.md) agree to fight [LettuceK](../characters/lettucek.md)'s whole army together: two players against a thousand. They win, but the truce only lasts until the last LAWman falls. Flame attacks Wemmbu and takes back the title of strongest player, and Lettuce takes the weakened Wemmbu prisoner.
 
+<div class="uu-mm-card" markdown>
+
 ```mermaid
-timeline
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Roboto, Helvetica, Arial, sans-serif", "fontSize": "15px", "primaryTextColor": "#1f1f1f", "textColor": "#1f1f1f", "titleColor": "#1f1f1f", "gridColor": "#d0d0d8", "taskBkgColor": "#5e35b1", "taskBorderColor": "#4527a0", "taskTextColor": "#ffffff", "taskTextLightColor": "#ffffff", "taskTextDarkColor": "#1f1f1f", "taskTextOutsideColor": "#1f1f1f", "taskTextClickableColor": "#1f1f1f", "sectionBkgColor": "#ede7f6", "altSectionBkgColor": "#ffffff", "sectionBkgColor2": "#fff3d6"}, "gantt": {"barHeight": 26, "barGap": 6, "fontSize": 14, "sectionFontSize": 15, "leftPadding": 135, "topPadding": 54, "gridLineStartPadding": 40, "titleTopMargin": 24}, "themeCSS": ".titleText{font-size:20px;font-weight:600;fill:#1f1f1f} .sectionTitle{font-size:15px;font-weight:600;fill:#1f1f1f} .tick text{font-size:13px;fill:#333} .taskText,.taskTextOutsideRight,.taskTextOutsideLeft{font-size:14px} .milestone{fill:#5e35b1;stroke:#4527a0}"}}%%
+gantt
     title The 2 VS 1000 War
-        1 Nov 2025 : Ep. 85 2 VS 1000 Player Minecraft War
-        8 Nov 2025 : Ep. 86 2 Minecraft Pros VS 1000 Players
+    dateFormat YYYY-MM-DD
+    axisFormat %d %b %Y
+    todayMarker off
+    section Wemmbu
+    Ep. 86 2 Minecraft Pros VS 1000 Players : milestone, m0, 2025-11-08, 0d
+    section FlameFrags
+    Ep. 85 2 VS 1000 Player Minecraft War : milestone, m1, 2025-11-01, 0d
 ```
+
+</div>
 
 ## Perspectives
 

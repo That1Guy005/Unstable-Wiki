@@ -73,6 +73,7 @@
     wrap.insertBefore(ph, el);
     el.style.width = r.width + 'px';
     holder.appendChild(el);
+    holder.classList.toggle('uu-lb-light', !!wrap.closest('.uu-mm-card'));
     current = { el: el, wrap: wrap, ph: ph, w: r.width, h: r.height, focus: document.activeElement };
     overlay.hidden = false;
     document.documentElement.classList.add('uu-lb-open');

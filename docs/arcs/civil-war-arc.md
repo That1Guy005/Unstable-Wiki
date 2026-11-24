@@ -20,17 +20,25 @@ tags:
 
 [ParrotX2](../characters/parrotx2.md)'s reign as king: saving spawn, clearing his name, the loss of [Skymore Civilization](../places/skymore-civilization.md), building the largest army ever, and losing the civil war, and his crown, to [Saparata](../characters/saparata.md)'s [Cindercrest](../factions/cindercrest.md).
 
+<div class="uu-mm-card" markdown>
+
 ```mermaid
-timeline
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Roboto, Helvetica, Arial, sans-serif", "fontSize": "15px", "primaryTextColor": "#1f1f1f", "textColor": "#1f1f1f", "titleColor": "#1f1f1f", "gridColor": "#d0d0d8", "taskBkgColor": "#5e35b1", "taskBorderColor": "#4527a0", "taskTextColor": "#ffffff", "taskTextLightColor": "#ffffff", "taskTextDarkColor": "#1f1f1f", "taskTextOutsideColor": "#1f1f1f", "taskTextClickableColor": "#1f1f1f", "sectionBkgColor": "#ede7f6", "altSectionBkgColor": "#ffffff", "sectionBkgColor2": "#fff3d6"}, "gantt": {"barHeight": 26, "barGap": 6, "fontSize": 14, "sectionFontSize": 15, "leftPadding": 135, "topPadding": 54, "gridLineStartPadding": 40, "titleTopMargin": 24}, "themeCSS": ".titleText{font-size:20px;font-weight:600;fill:#1f1f1f} .sectionTitle{font-size:15px;font-weight:600;fill:#1f1f1f} .tick text{font-size:13px;fill:#333} .taskText,.taskTextOutsideRight,.taskTextOutsideLeft{font-size:14px} .milestone{fill:#5e35b1;stroke:#4527a0}"}}%%
+gantt
     title Civil War Arc
+    dateFormat YYYY-MM-DD
+    axisFormat %b %Y
+    todayMarker off
     section ParrotX2
-        28 Feb 2026 : Ep. 118 100 Days as King of the Unstable SMP
-        19 Mar 2026 : Ep. 122 I Exposed a Corrupt Minecraft Civilization
-        14 Apr 2026 : Ep. 125 Searching for a Civilization that Doesn't Exist
-        4 May 2026 : Ep. 129 I Created the World's Largest Minecraft Army
-        16 May 2026 : Ep. 133 Unstable SMP - Civil War
-        3 Jun 2026 : Ep. 138 Unstable SMP - Civil War FINALE
+    Ep. 118 100 Days as King of the Unstable SMP : milestone, m0, 2026-02-28, 0d
+    Ep. 122 I Exposed a Corrupt Minecraft Civilization : milestone, m1, 2026-03-19, 0d
+    Ep. 125 Searching for a Civilization that Doesn't Exist : milestone, m2, 2026-04-14, 0d
+    Ep. 129 I Created the World's Largest Minecraft Army : milestone, m3, 2026-05-04, 0d
+    Ep. 133 Unstable SMP - Civil War : milestone, m4, 2026-05-16, 0d
+    Ep. 138 Unstable SMP - Civil War FINALE : milestone, m5, 2026-06-03, 0d
 ```
+
+</div>
 
 ## Episodes
 

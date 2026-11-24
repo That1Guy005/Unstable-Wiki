@@ -20,17 +20,25 @@ tags:
 
 [ParrotX2](../characters/parrotx2.md)'s Season 2 opener. Hunted by agents of a mysterious "Director" and taken in by the [Bounty Assassin Team](../factions/bounty-assassin-team.md), Parrot is framed, survives, and discovers that the Director is his supposedly dead best friend [Wifies](../characters/wifies.md), before escaping [Paragon](../places/paragon.md).
 
+<div class="uu-mm-card" markdown>
+
 ```mermaid
-timeline
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Roboto, Helvetica, Arial, sans-serif", "fontSize": "15px", "primaryTextColor": "#1f1f1f", "textColor": "#1f1f1f", "titleColor": "#1f1f1f", "gridColor": "#d0d0d8", "taskBkgColor": "#5e35b1", "taskBorderColor": "#4527a0", "taskTextColor": "#ffffff", "taskTextLightColor": "#ffffff", "taskTextDarkColor": "#1f1f1f", "taskTextOutsideColor": "#1f1f1f", "taskTextClickableColor": "#1f1f1f", "sectionBkgColor": "#ede7f6", "altSectionBkgColor": "#ffffff", "sectionBkgColor2": "#fff3d6"}, "gantt": {"barHeight": 26, "barGap": 6, "fontSize": 14, "sectionFontSize": 15, "leftPadding": 135, "topPadding": 54, "gridLineStartPadding": 40, "titleTopMargin": 24}, "themeCSS": ".titleText{font-size:20px;font-weight:600;fill:#1f1f1f} .sectionTitle{font-size:15px;font-weight:600;fill:#1f1f1f} .tick text{font-size:13px;fill:#333} .taskText,.taskTextOutsideRight,.taskTextOutsideLeft{font-size:14px} .milestone{fill:#5e35b1;stroke:#4527a0}"}}%%
+gantt
     title The Director Arc
+    dateFormat YYYY-MM-DD
+    axisFormat %b %Y
+    todayMarker off
     section ParrotX2
-        17 Feb 2025 : Ep. 29 I Got Hunted by the World's Best Minecraft Player
-        9 Mar 2025 : Ep. 31 I Got Hunted by a Minecraft Redstone Genius
-        29 Mar 2025 : Ep. 34 I Got Hunted by Minecraft Bounty Hunters
-        4 May 2025 : Ep. 40 I Got Hunted by a Minecraft Hacker
-        31 May 2025 : Ep. 45 Hunting a Minecraft Player Who Doesn't Exist
-        28 Jun 2025 : Ep. 51 Escaping Paragon - The Perfect Minecraft Prison
+    Ep. 29 I Got Hunted by the World's Best Minecraft Play… : milestone, m0, 2025-02-17, 0d
+    Ep. 31 I Got Hunted by a Minecraft Redstone Genius : milestone, m1, 2025-03-09, 0d
+    Ep. 34 I Got Hunted by Minecraft Bounty Hunters : milestone, m2, 2025-03-29, 0d
+    Ep. 40 I Got Hunted by a Minecraft Hacker : milestone, m3, 2025-05-04, 0d
+    Ep. 45 Hunting a Minecraft Player Who Doesn't Exist : milestone, m4, 2025-05-31, 0d
+    Ep. 51 Escaping Paragon - The Perfect Minecraft Prison : milestone, m5, 2025-06-28, 0d
 ```
+
+</div>
 
 ## Episodes
 

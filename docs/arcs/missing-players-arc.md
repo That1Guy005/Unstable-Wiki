@@ -20,15 +20,23 @@ tags:
 
 [SpokeIsHere](../characters/spokeishere.md) and [JumperWho](../characters/jumperwho.md) search for thousands of vanished players and the missing [Mapicc](../characters/mapicc.md), follow [NULL](../factions/null.md)'s trail to the [Far Lands](../places/far-lands.md), and discover that [JamatoP](../characters/jamatop.md) is behind NULL.
 
+<div class="uu-mm-card" markdown>
+
 ```mermaid
-timeline
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Roboto, Helvetica, Arial, sans-serif", "fontSize": "15px", "primaryTextColor": "#1f1f1f", "textColor": "#1f1f1f", "titleColor": "#1f1f1f", "gridColor": "#d0d0d8", "taskBkgColor": "#5e35b1", "taskBorderColor": "#4527a0", "taskTextColor": "#ffffff", "taskTextLightColor": "#ffffff", "taskTextDarkColor": "#1f1f1f", "taskTextOutsideColor": "#1f1f1f", "taskTextClickableColor": "#1f1f1f", "sectionBkgColor": "#ede7f6", "altSectionBkgColor": "#ffffff", "sectionBkgColor2": "#fff3d6"}, "gantt": {"barHeight": 26, "barGap": 6, "fontSize": 14, "sectionFontSize": 15, "leftPadding": 135, "topPadding": 54, "gridLineStartPadding": 40, "titleTopMargin": 24}, "themeCSS": ".titleText{font-size:20px;font-weight:600;fill:#1f1f1f} .sectionTitle{font-size:15px;font-weight:600;fill:#1f1f1f} .tick text{font-size:13px;fill:#333} .taskText,.taskTextOutsideRight,.taskTextOutsideLeft{font-size:14px} .milestone{fill:#5e35b1;stroke:#4527a0}"}}%%
+gantt
     title Missing Players Arc
+    dateFormat YYYY-MM-DD
+    axisFormat %d %b %Y
+    todayMarker off
     section SpokeIsHere
-        10 Mar 2026 : Ep. 119 Minecraft Trapper VS Elite Bounty Hunters
-        25 Mar 2026 : Ep. 123 Searching for 100 Players Who Went Missing
-        28 Apr 2026 : Ep. 126 Searching For 1000 Players Who Went Missing
-        8 May 2026 : Ep. 130 Finding 1000 Players Who Went Missing
+    Ep. 119 Minecraft Trapper VS Elite Bounty Hunters : milestone, m0, 2026-03-10, 0d
+    Ep. 123 Searching for 100 Players Who Went Missing : milestone, m1, 2026-03-25, 0d
+    Ep. 126 Searching For 1000 Players Who Went Missing : milestone, m2, 2026-04-28, 0d
+    Ep. 130 Finding 1000 Players Who Went Missing : milestone, m3, 2026-05-08, 0d
 ```
+
+</div>
 
 ## Episodes
 

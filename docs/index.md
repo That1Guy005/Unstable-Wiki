@@ -77,8 +77,10 @@ Every story episode has a detailed recap; every character, place, faction, item 
 
 <div class="grid" markdown>
 
+<div class="uu-mm-card" markdown>
+
 ```mermaid
-%%{init: {"themeVariables": {"pie1": "#2e7d32", "pie2": "#1565c0", "pie3": "#6a1b9a", "pie4": "#e65100", "pieSectionTextColor": "#ffffff", "pieOpacity": "0.9"}}}%%
+%%{init: {"theme": "base", "themeVariables": {"pie1": "#2e7d32", "pie2": "#1565c0", "pie3": "#6a1b9a", "pie4": "#e65100", "fontFamily": "Roboto, Helvetica, Arial, sans-serif", "pieSectionTextColor": "#ffffff", "pieSectionTextSize": "16px", "pieTitleTextColor": "#1f1f1f", "pieTitleTextSize": "20px", "pieLegendTextColor": "#1f1f1f", "pieLegendTextSize": "16px", "pieStrokeColor": "#ffffff", "pieStrokeWidth": "2px", "pieOuterStrokeWidth": "0px", "pieOpacity": "1"}, "themeCSS": ".legend text{fill:#1f1f1f !important;font-size:16px !important} .pieTitleText{fill:#1f1f1f !important}"}}%%
 pie showData
     title Story episodes by POV
     "ParrotX2" : 39
@@ -86,6 +88,8 @@ pie showData
     "SpokeIsHere" : 33
     "FlameFrags" : 40
 ```
+
+</div>
 
 | Season | Episodes | Uploaded |
 |---|---|---|

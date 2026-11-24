@@ -16,21 +16,32 @@ tags:
 
 After defeating [FlameFrags](../characters/flamefrags.md), [Wemmbu](../characters/wemmbu.md) fakes his death and lives under a new identity. Flame refuses to believe it and starts investigating, chasing rumours, missing witnesses and informants like [Boosfer](../characters/boosfer.md), while Wemmbu tries to silence anyone who might expose him. In the end Flame hires [ParrotX2](../characters/parrotx2.md), whose trap reveals the Invisible Knight as Wemmbu.
 
+<div class="uu-mm-card" markdown>
+
 ```mermaid
-timeline
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Roboto, Helvetica, Arial, sans-serif", "fontSize": "15px", "primaryTextColor": "#1f1f1f", "textColor": "#1f1f1f", "titleColor": "#1f1f1f", "gridColor": "#d0d0d8", "taskBkgColor": "#5e35b1", "taskBorderColor": "#4527a0", "taskTextColor": "#ffffff", "taskTextLightColor": "#ffffff", "taskTextDarkColor": "#1f1f1f", "taskTextOutsideColor": "#1f1f1f", "taskTextClickableColor": "#1f1f1f", "sectionBkgColor": "#ede7f6", "altSectionBkgColor": "#ffffff", "sectionBkgColor2": "#fff3d6"}, "gantt": {"barHeight": 26, "barGap": 6, "fontSize": 14, "sectionFontSize": 15, "leftPadding": 135, "topPadding": 54, "gridLineStartPadding": 40, "titleTopMargin": 24}, "themeCSS": ".titleText{font-size:20px;font-weight:600;fill:#1f1f1f} .sectionTitle{font-size:15px;font-weight:600;fill:#1f1f1f} .tick text{font-size:13px;fill:#333} .taskText,.taskTextOutsideRight,.taskTextOutsideLeft{font-size:14px} .milestone{fill:#5e35b1;stroke:#4527a0}"}}%%
+gantt
     title Wemmbu's Fake Death
-        30 Aug 2025 : Ep. 66 I Became Powerful on a Hardcore Minecraft Server
-        9 Sep 2025 : Ep. 68 Hunting a Minecraft Player Who Went Missing
-        13 Sep 2025 : Ep. 70 I Faked My Death on a Hardcore Minecraft SMP
-        24 Sep 2025 : Ep. 73 How I 'DIED' on a Hardcore Minecraft SMP
-        27 Sep 2025 : Ep. 74 Hunting a Player Who Faked His Death
-        6 Oct 2025 : Ep. 75 I Escaped Minecraft's Forgotten Dimension
-        14 Oct 2025 : Ep. 79 This Player Stole My Identity
-        18 Oct 2025 : Ep. 80 100 Players VS Minecraft Combat Master
-        22 Oct 2025 : Ep. 81 The Search for Wemmbu
-        26 Oct 2025 : Ep. 82 I Got Hunted by Minecraft's Smartest Player
-        27 Oct 2025 : Ep. 83 Exposing a Player Who Faked His Death
+    dateFormat YYYY-MM-DD
+    axisFormat %d %b %Y
+    todayMarker off
+    section ParrotX2
+    Ep. 81 The Search for Wemmbu : milestone, m0, 2025-10-22, 0d
+    section Wemmbu
+    Ep. 70 I Faked My Death on a Hardcore Minecraft SMP : milestone, m1, 2025-09-13, 0d
+    Ep. 73 How I 'DIED' on a Hardcore Minecraft SMP : milestone, m2, 2025-09-24, 0d
+    Ep. 75 I Escaped Minecraft's Forgotten Dimension : milestone, m3, 2025-10-06, 0d
+    Ep. 79 This Player Stole My Identity : milestone, m4, 2025-10-14, 0d
+    Ep. 82 I Got Hunted by Minecraft's Smartest Player : milestone, m5, 2025-10-26, 0d
+    section FlameFrags
+    Ep. 66 I Became Powerful on a Hardcore Minecraft Server : milestone, m6, 2025-08-30, 0d
+    Ep. 68 Hunting a Minecraft Player Who Went Missing : milestone, m7, 2025-09-09, 0d
+    Ep. 74 Hunting a Player Who Faked His Death : milestone, m8, 2025-09-27, 0d
+    Ep. 80 100 Players VS Minecraft Combat Master : milestone, m9, 2025-10-18, 0d
+    Ep. 83 Exposing a Player Who Faked His Death : milestone, m10, 2025-10-27, 0d
 ```
+
+</div>
 
 ## Perspectives
 

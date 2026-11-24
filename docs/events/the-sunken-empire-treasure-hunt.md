@@ -16,12 +16,22 @@ tags:
 
 A treasure in [The Great Sea](../places/the-great-sea.md) draws in [ParrotX2](../characters/parrotx2.md) and [TheobaldTheBird](../characters/theobaldthebird.md), [Boosfer](../characters/boosfer.md), [Jaden_MAN](../characters/jaden-man.md)'s pirates, and [Wemmbu](../characters/wemmbu.md), who is in disguise and has joined Jaden's crew to get to Boosfer. Parrot meets the mysterious invisible player at the sunken city and works out who he really is.
 
+<div class="uu-mm-card" markdown>
+
 ```mermaid
-timeline
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Roboto, Helvetica, Arial, sans-serif", "fontSize": "15px", "primaryTextColor": "#1f1f1f", "textColor": "#1f1f1f", "titleColor": "#1f1f1f", "gridColor": "#d0d0d8", "taskBkgColor": "#5e35b1", "taskBorderColor": "#4527a0", "taskTextColor": "#ffffff", "taskTextLightColor": "#ffffff", "taskTextDarkColor": "#1f1f1f", "taskTextOutsideColor": "#1f1f1f", "taskTextClickableColor": "#1f1f1f", "sectionBkgColor": "#ede7f6", "altSectionBkgColor": "#ffffff", "sectionBkgColor2": "#fff3d6"}, "gantt": {"barHeight": 26, "barGap": 6, "fontSize": 14, "sectionFontSize": 15, "leftPadding": 135, "topPadding": 54, "gridLineStartPadding": 40, "titleTopMargin": 24}, "themeCSS": ".titleText{font-size:20px;font-weight:600;fill:#1f1f1f} .sectionTitle{font-size:15px;font-weight:600;fill:#1f1f1f} .tick text{font-size:13px;fill:#333} .taskText,.taskTextOutsideRight,.taskTextOutsideLeft{font-size:14px} .milestone{fill:#5e35b1;stroke:#4527a0}"}}%%
+gantt
     title The Sunken Empire Treasure Hunt
-        20 Sep 2025 : Ep. 71 I Secretly Joined My Enemy's Minecraft Team
-        22 Sep 2025 : Ep. 72 The Search for Minecraft's Sunken Empire
+    dateFormat YYYY-MM-DD
+    axisFormat %d %b %Y
+    todayMarker off
+    section ParrotX2
+    Ep. 72 The Search for Minecraft's Sunken Empire : milestone, m0, 2025-09-22, 0d
+    section Wemmbu
+    Ep. 71 I Secretly Joined My Enemy's Minecraft Team : milestone, m1, 2025-09-20, 0d
 ```
+
+</div>
 
 ## Perspectives
 

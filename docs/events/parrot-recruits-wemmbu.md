@@ -16,12 +16,22 @@ tags:
 
 To win the election, [ParrotX2](../characters/parrotx2.md) needs [Wemmbu](../characters/wemmbu.md), the man he once exposed. Parrot finds him in the abandoned [Pirate City](../places/pirate-city.md), and the two make a tense run back through [LAW](../factions/law.md) territory by dolphin tunnel, river and happy ghast, while [LettuceK](../characters/lettucek.md) runs the debate without Parrot.
 
+<div class="uu-mm-card" markdown>
+
 ```mermaid
-timeline
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Roboto, Helvetica, Arial, sans-serif", "fontSize": "15px", "primaryTextColor": "#1f1f1f", "textColor": "#1f1f1f", "titleColor": "#1f1f1f", "gridColor": "#d0d0d8", "taskBkgColor": "#5e35b1", "taskBorderColor": "#4527a0", "taskTextColor": "#ffffff", "taskTextLightColor": "#ffffff", "taskTextDarkColor": "#1f1f1f", "taskTextOutsideColor": "#1f1f1f", "taskTextClickableColor": "#1f1f1f", "sectionBkgColor": "#ede7f6", "altSectionBkgColor": "#ffffff", "sectionBkgColor2": "#fff3d6"}, "gantt": {"barHeight": 26, "barGap": 6, "fontSize": 14, "sectionFontSize": 15, "leftPadding": 135, "topPadding": 54, "gridLineStartPadding": 40, "titleTopMargin": 24}, "themeCSS": ".titleText{font-size:20px;font-weight:600;fill:#1f1f1f} .sectionTitle{font-size:15px;font-weight:600;fill:#1f1f1f} .tick text{font-size:13px;fill:#333} .taskText,.taskTextOutsideRight,.taskTextOutsideLeft{font-size:14px} .milestone{fill:#5e35b1;stroke:#4527a0}"}}%%
+gantt
     title Parrot Recruits Wemmbu
-        24 Jan 2026 : Ep. 106 2 Minecraft Pros VS 1000 Hunters
-        25 Jan 2026 : Ep. 107 I Became a Minecraft Killer
+    dateFormat YYYY-MM-DD
+    axisFormat %d %b %Y
+    todayMarker off
+    section ParrotX2
+    Ep. 106 2 Minecraft Pros VS 1000 Hunters : milestone, m0, 2026-01-24, 0d
+    section Wemmbu
+    Ep. 107 I Became a Minecraft Killer : milestone, m1, 2026-01-25, 0d
 ```
+
+</div>
 
 ## Perspectives
 

@@ -16,13 +16,24 @@ tags:
 
 Armed with orbital strike cannons from the Far Lands, [Wemmbu](../characters/wemmbu.md) tears across the server hunting [FlameFrags](../characters/flamefrags.md) for the title of strongest player. Flame, low on resources and secretly doing quests for [SpokeIsHere](../characters/spokeishere.md), loses the showdown, and Spoke, now a bounty hunter, is there to watch and take advantage.
 
+<div class="uu-mm-card" markdown>
+
 ```mermaid
-timeline
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Roboto, Helvetica, Arial, sans-serif", "fontSize": "15px", "primaryTextColor": "#1f1f1f", "textColor": "#1f1f1f", "titleColor": "#1f1f1f", "gridColor": "#d0d0d8", "taskBkgColor": "#5e35b1", "taskBorderColor": "#4527a0", "taskTextColor": "#ffffff", "taskTextLightColor": "#ffffff", "taskTextDarkColor": "#1f1f1f", "taskTextOutsideColor": "#1f1f1f", "taskTextClickableColor": "#1f1f1f", "sectionBkgColor": "#ede7f6", "altSectionBkgColor": "#ffffff", "sectionBkgColor2": "#fff3d6"}, "gantt": {"barHeight": 26, "barGap": 6, "fontSize": 14, "sectionFontSize": 15, "leftPadding": 135, "topPadding": 54, "gridLineStartPadding": 40, "titleTopMargin": 24}, "themeCSS": ".titleText{font-size:20px;font-weight:600;fill:#1f1f1f} .sectionTitle{font-size:15px;font-weight:600;fill:#1f1f1f} .tick text{font-size:13px;fill:#333} .taskText,.taskTextOutsideRight,.taskTextOutsideLeft{font-size:14px} .milestone{fill:#5e35b1;stroke:#4527a0}"}}%%
+gantt
     title The Orbital Strike Cannon War
-        20 Aug 2025 : Ep. 64 Orbital Strike Cannon vs Unstable SMP
-        21 Aug 2025 : Ep. 65 Minecraft Pro VS Orbital Strike Cannon
-        12 Sep 2025 : Ep. 69 I Became a Bounty Hunter on the Unstable SMP
+    dateFormat YYYY-MM-DD
+    axisFormat %d %b %Y
+    todayMarker off
+    section Wemmbu
+    Ep. 64 Orbital Strike Cannon vs Unstable SMP : milestone, m0, 2025-08-20, 0d
+    section SpokeIsHere
+    Ep. 69 I Became a Bounty Hunter on the Unstable SMP : milestone, m1, 2025-09-12, 0d
+    section FlameFrags
+    Ep. 65 Minecraft Pro VS Orbital Strike Cannon : milestone, m2, 2025-08-21, 0d
 ```
+
+</div>
 
 ## Perspectives
 
